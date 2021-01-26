@@ -5,7 +5,7 @@
   * tech gif background
 - products page
   * Big Featured product
-  * carousel of products
+  * Scroll down for products
 - product detail page
   * Generic detail page of a product
   * generated in php from db
