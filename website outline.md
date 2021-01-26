@@ -17,6 +17,9 @@
   * description
 - product value -> btc converter
   * Display's the product's price in btc
+- admin page
+  * sales data
+  * cool graphs
 
 
 # Products:
