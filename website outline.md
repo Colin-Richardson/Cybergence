@@ -9,6 +9,11 @@
 - product detail page
   * Generic detail page of a product
   * generated in php from db
+- admin page
+  * shows sales data
+  * has cool graphs
+  * generate graphs with JS & html canvas
+  
 
 # backend info:
 - product
@@ -17,9 +22,11 @@
   * description
 - product value -> btc converter
   * Display's the product's price in btc
-- admin page
-  * sales data
-  * cool graphs
+- admin page data
+  * product sales numbers
+  * revenue
+  * profit
+ 
 
 
 # Products:
