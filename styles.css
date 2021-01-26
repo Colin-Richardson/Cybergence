@@ -8,7 +8,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-    margin: 0%;
 }
 
 .overlay {
@@ -30,4 +29,11 @@ body {
 }
 #landesc {
 
+}
+#navback {
+    background-color: black;
+}
+#navlogo {
+    width: 50%;
+    height: 50%;
 }
