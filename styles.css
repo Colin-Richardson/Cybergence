@@ -22,7 +22,7 @@ body {
     padding-top: 10%;
     text-align: center;
     color: white;
-    -webkit-animation: fadein 4s;
+    -webkit-animation: fadein 5s;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -30,9 +30,6 @@ body {
 }
 #landtitle {
     font-size: 500%;
-}
-#landesc {
-
 }
 
 .logo {
@@ -53,14 +50,12 @@ body {
   
   .navbar-nav a:hover {
     border-bottom: 1px solid white;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
   }
   
   .navbar-nav a:focus, .navbar-nav a:active {
     color: aqua;
-  }
-  
-  .activenav {
-  
   }
   
   #navbar {
