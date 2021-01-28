@@ -19,6 +19,7 @@
   * Mission statement
   * Address ethics
   * Based out of...
+  * fade in text as you scroll(Jquery&AJAX)
 - admin page
   * shows sales data
   * has cool graphs
