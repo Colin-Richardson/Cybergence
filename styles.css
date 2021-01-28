@@ -3,8 +3,9 @@ html, body {
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: black;
 }
-body {
+.index {
     background-image: url('img/giphy.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +19,7 @@ body {
     padding-top: 10%;
     text-align: center;
     color: white;
-    -webkit-animation: fadein 5s;
+    -webkit-animation: fadein 4s;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -58,3 +59,8 @@ body {
     padding-bottom: 0%;
   }
   
+  .state {
+    color: white;
+    text-align: center;
+    -webkit-animation: fadein 4s;
+  }
