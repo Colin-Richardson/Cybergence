@@ -19,6 +19,7 @@
   * Mission statement
   * Address ethics
   * Based out of...
+  * fade in text as you scroll(Jquery&AJAX)
 - admin page
   * shows sales data
   * has cool graphs
@@ -30,8 +31,8 @@
   * name
   * price
   * description
-- product value -> btc converter
-  * Display's the product's price in btc
+- ~product value -> btc converter~ 
+  * ~Display's the product's price in btc~
 - account creation for buying
   * Username & password
   * Newsletter
@@ -41,6 +42,7 @@
   * revenue
   * profit
   * In-depth
+ - django-esque templating system
  
 
 
