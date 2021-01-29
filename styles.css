@@ -5,7 +5,7 @@ html, body {
     background-color: black;
 }
 .index {
-    background-image: url('img/giphy.gif');
+    background-image: url('img/landingpage.gif');
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
@@ -65,7 +65,10 @@ html, body {
     -webkit-animation: fadein 4s;
   }
   .misjumbo {
-    background-image: url('img/risingtech.gif');
+    background-image: url('img/mission.gif');
+    -webkit-animation: fadein 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .misquote {
     color: white;
@@ -80,4 +83,14 @@ html, body {
   .ethbul {
     color: white;
     margin: 2% 5% 2% 5%;
+  }
+  .ethjumbo {
+    background-image: url('img/ethics.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .teamjumbo {
+    background-image: url('img/team.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
