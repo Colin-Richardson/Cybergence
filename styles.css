@@ -64,7 +64,9 @@ html, body {
     text-align: center;
     -webkit-animation: fadein 4s;
   }
-
+  .misjumbo {
+    background-image: url('img/risingtech.gif');
+  }
   .misquote {
     color: white;
     -webkit-animation: fadein 9s;
