@@ -64,12 +64,6 @@ html, body {
     text-align: center;
     -webkit-animation: fadein 4s;
   }
-  .misjumbo {
-    background-image: url('img/mission.gif');
-    -webkit-animation: fadein 3s;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   .misquote {
     color: white;
     -webkit-animation: fadein 9s;
@@ -84,13 +78,14 @@ html, body {
     color: white;
     margin: 2% 5% 2% 5%;
   }
-  .ethjumbo {
-    background-image: url('img/ethics.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+  .downup {
+    background: linear-gradient(to bottom, #000000 0%, #000066 400%);
   }
-  .teamjumbo {
-    background-image: url('img/team.gif');
+  .updown {
+    background: linear-gradient(to top, #000000 0%, #000066 400%);
+  }
+  .teamback {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/teambackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
