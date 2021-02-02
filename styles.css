@@ -52,7 +52,7 @@ html, body {
   }
   
   .navbar-nav a:focus, .navbar-nav a:active {
-    color: aqua;
+    color: #0755ff;
   }
   
   #navbar {
@@ -67,7 +67,7 @@ html, body {
   .misquote {
     color: white;
     -webkit-animation: fadein 9s;
-    padding-top: 30%;
+    padding-top: 25%;
     padding-right: 2%;
     text-align: center;
   }
