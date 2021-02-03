@@ -22,7 +22,6 @@ body {
   padding-top: 10%;
   text-align: center;
   color: white;
-  -webkit-animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -69,20 +68,15 @@ body {
 .state {
   color: white;
   text-align: center;
-  -webkit-animation: fadein 4s;
 }
 
 .misquote {
   color: white;
-  -webkit-animation: fadein 9s;
   padding-top: 25%;
   padding-right: 2%;
   text-align: center;
 }
 
-.fadein {
-  -webkit-animation: fadein 9s;
-}
 
 .ethbul {
   color: white;
