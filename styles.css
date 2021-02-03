@@ -63,7 +63,7 @@ body {
 
 #navbar {
   padding-bottom: 0%;
-  background: linear-gradient(to top, #000000 0%, #000066 125%);
+  background: linear-gradient(to top, #000000 0%, #062dda 200%);
 }
 
 .state {
@@ -98,13 +98,13 @@ body {
 }
 
 .teamback {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/ethicsbackground.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/ethicsbackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ethicback {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/teambackground.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/teambackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
