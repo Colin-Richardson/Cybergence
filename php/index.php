@@ -35,10 +35,9 @@ function btcprice(){
 	//record price in file incase of timeout/error
 }
 
-//returns product's prince in btc
+//returns product's price in btc
 function p2btc($p,$btc){ 
 	return $p/$btc;
 }
-
 ?>
 
