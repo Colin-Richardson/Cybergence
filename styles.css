@@ -22,18 +22,8 @@ body {
   padding-top: 10%;
   text-align: center;
   color: white;
-  -webkit-animation: fadein 4s;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
 
 #landtitle {
   font-size: 500%;
@@ -58,11 +48,6 @@ body {
   border-bottom: 1px solid black;
 }
 
-.navbar-nav a:hover {
-  border-bottom: 1px solid white;
-  transition: all .6s ease;
-  -webkit-transition: all .6s ease;
-}
 
 #navbar {
   padding-bottom: 0%;
@@ -72,11 +57,6 @@ body {
 .state {
   color: white;
   text-align: center;
-  -webkit-animation: fadein 4s;
-}
-
-.fadein {
-  -webkit-animation: fadein 9s;
 }
 
 .misquote {
@@ -84,7 +64,6 @@ body {
   padding-top: 25%;
   padding-right: 2%;
   text-align: center;
-  -webkit-animation: fadein 9s;
 }
 
 
@@ -108,9 +87,17 @@ body {
 }
 
 .ethicback {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/teambackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/teambackground.jpg');
+  height: 100%;
+}
+.secs {
+	height: 100%;
+}
+.sec1, .sec2, .sec3 {
+	display: none;	
+	height: 100%;
 }
 
 /* these names are dumb and too long, I'll fix them later */
@@ -135,8 +122,7 @@ body {
   border-radius: 5%;
 }
 
-.team-card-image,
-.team-card-title {
+.team-card-image, .team-card-title {
   position: relative;
 }
 
@@ -144,8 +130,7 @@ body {
   height: 15%;
 }
 
-.team-card-image>img,
-.team-card-title>h2 {
+.team-card-image >img, .team-card-title > h2 {
   /*this centers it vertically and horizontally. as recommended by w3.org. I hate it and its stupid */
   position: absolute;
   top: 50%;
