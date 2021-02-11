@@ -1,0 +1,55 @@
+<head>
+<style>
+	body{background:#798E9E}
+	canvas{
+		background:white;
+		margin: auto;
+		display: block;
+		filter: drop-shadow(1px 1px 2px black);
+	}
+</style>
+</head>
+<body>
+<canvas id="sales" width="500" height="300">
+Your browser does not support the HTML canvas tag.
+</canvas>
+	<script type="text/javascript" src="sales.json"></script>
+	<script>
+		const c = document.getElementById("sales");
+		const ctx = c.getContext("2d");
+		const rowSize = [50,25];
+		const chartSize = [500,300];
+		function generateGraph(){
+			let i = 0;
+			while (i <= chartSize[1]){
+				ctx.moveTo(0,i);
+				ctx.lineTo(chartSize[0], i);
+				i += rowSize[1];
+			}
+			i = 0;
+			while (i <= chartSize[0]){
+				ctx.moveTo(i,0);
+				ctx.lineTo(i, chartSize[1]);
+				i += rowSize[0];
+			}
+			
+			ctx.stroke();
+		}
+		generateGraph();
+		ctx.beginPath();
+		let x = 0;
+		let i = 0;
+		let oldcord = [0,0];
+		while(x<=chartSize[0]){
+			let y = 300 - sales[i].sales/100;
+			console.log(y);
+			ctx.moveTo(oldcord[0],oldcord[1]);
+			ctx.lineTo(x, y);
+			oldcord = [x,y]
+			x+=rowSize[0];
+			i++;
+		}
+		ctx.strokeStyle="red";
+		ctx.stroke();
+	</script>
+</body>
