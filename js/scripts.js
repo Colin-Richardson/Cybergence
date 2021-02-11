@@ -1,11 +1,21 @@
+const fadeInTime = 2000;
+
 $(function(){
-    let ele =  $(".team-card");
+    $(".sec1").fadeIn(2000);
     $("body").scroll(function(){
-        console.log($("body").scrollTop());
-        if($("body").scrollTop()>900){
-                ele.fadeIn(3000);
-        } else {
-                ele.stop(true,true).fadeOut(3000);
-        }
+	fadein();
     });
 });
+
+function fadein() {
+	const secs = [{ selector: $(".ethicback"), scroll: "300"}, { selector: $(".sec3"), scroll: "1200"}];
+	for (x of secs){
+         //console.log($("body").scrollTop());
+         if($("body").scrollTop()>x.scroll){
+                 x.selector.fadeIn(fadeInTime);
+         } //else {
+                //x.stop(true,true).fadeOut(0);
+ 	       //fade out effect
+           // }
+         }
+}
