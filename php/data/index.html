@@ -10,7 +10,7 @@
 </style>
 </head>
 <body>
-<canvas id="sales" width="500" height="300">
+<canvas id="sales" width="525" height="350">
 Your browser does not support the HTML canvas tag.
 </canvas>
 	<script type="text/javascript" src="sales.json"></script>
@@ -20,21 +20,31 @@ Your browser does not support the HTML canvas tag.
 		const ctx = c.getContext("2d");
 		ctx.beginPath();
 		const rowSize = [25,25];
-		const chartSize = [500,300];
+		const chartSize = [500,325];
 		ctx.lineWidth = 0.25;
-		let i = 0;
+		let i = 25;
 		while (i <= chartSize[1]){
+			//y lines
 			ctx.moveTo(0,i);
 			ctx.lineTo(chartSize[0], i);
+			//y label
+			if(i<325){
+				ctx.fillText(325-i +"k",505,i);
+			} else{
+				ctx.fillText(325-i,505,i);
+			}
 			i += rowSize[1];
 		}
 		i = 0;
 		while (i <= chartSize[0]){
-			ctx.moveTo(i,0);
-			ctx.lineTo(i, chartSize[1]);
+			//x lines
+			//ctx.moveTo(i,0);
+			//ctx.lineTo(i, chartSize[1]);
+			//x label
+			
 			i += rowSize[0];
 		}
-		
+		//y label
 		ctx.stroke();
 		ctx.beginPath();
 		ctx.lineWidth = 1;
