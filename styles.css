@@ -24,14 +24,17 @@ body {
   color: white;
 }
 
+#landesc {
+  font-size: 145%;
+}
 
 #landtitle {
-  font-size: 500%;
+  font-size: 440%;
 }
 
 .logo {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   padding-left: 10%;
 }
 
@@ -46,6 +49,7 @@ body {
   color: white;
   padding-bottom: 0%;
   border-bottom: 1px solid black;
+  font-size: 87%;
 }
 
 
@@ -170,8 +174,28 @@ body {
     flex: 1 0 100%;
   }
 }
-.shopback {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/shopbanner.jpg');
+
+.productjumbo {
+padding: 21%;
+}
+
+.armback {
   background-repeat: no-repeat;
   background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboarm.jpg');
+  height: 100%;
+}
+
+.eyeback {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboeye.jpg');
+  height: 100%;
+}
+
+.exoback {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
+  height: 100%;
 }
