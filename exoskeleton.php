@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,8 +20,9 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-    <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
+    <div class="exoback">
+    <nav class="navbar navbar-expand-lg navopacity">
+        <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
             aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,21 +39,33 @@
         </div>
     </nav>
     <!-- End Navigation -->
-    <!-- Start of Row & Column -->
-    <div class="row">
-        <div class="col-12">
     <!-- Exoskeleton Jumbotron -->
-    <div class="exoback">
-    <div class="jumbotron jumbotron-fluid productjumbo">
-        <div class="container state">
-            <h1 class="display-3">Exoskeleton</h1>
-            <h2 class="display-7">Cybergence's Innovative Physique</h2>
+        <div class="jumbotron jumbotron-fluid productjumbo">
+            <div class="container state">
+                <h1 class="display-3">Exoskeleton</h1>
+                <h2 class="display-7">Cybergence's Innovative Physique</h2>
+            </div>
         </div>
-    </div>
     </div>
     <!-- End of Exoskeleton Jumbotron -->
+    <div class="updown"><br><br><br></div>
+    <!-- Start of Row & Column -->
+        <div class="row">
+            <div class="col-3">
+                <img class="exosuit" src="img/exosuit.jpg" alt="Exosuit">
+            </div>
+            <div class="col-9">
+                <h1 class="exodesctit">Our Exoskeleton...</h1><br>
+                <ul class="exodesc">
+                    <li>Provides stability to the arms including triceps, forearms, and biceps.</li>
+                    <li>Enhances spine and corrects alignment, relieving pain and moving blood throughout the body.</li>
+                    <li>Adds more strength the the quadriceps and hamstrings, allowing for a more advanced carrying
+                        capacity.</li>
+                </ul>
+            </div>
         </div>
-    </div>
+    <div class="row"></div>
     <!-- End of Row & Column -->
 </body>
+
 </html>

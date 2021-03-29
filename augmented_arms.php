@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,8 +20,9 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-    <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
+    <div class="armback">
+    <nav class="navbar navbar-expand-lg navopacity">
+        <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
             aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,21 +39,18 @@
         </div>
     </nav>
     <!-- End Navigation -->
-    <!-- Start of Row & Column -->
-    <div class="row">
-        <div class="col-12">
     <!-- Arms Jumbotron -->
-    <div class="armback">
-    <div class="jumbotron jumbotron-fluid productjumbo">
-        <div class="container state">
-            <h1 class="display-3">Augmented Arms</h1>
-            <h2 class="display-7">Cybergence's Arm Collection</h2>
+        <div class="jumbotron jumbotron-fluid productjumbo">
+            <div class="container state">
+                <h1 class="display-3">Augmented Arms</h1>
+                <h2 class="display-7">Cybergence's Arm Collection</h2>
+            </div>
         </div>
-    </div>
     </div>
     <!-- End of Arms Jumbotron -->
-        </div>
-    </div>
+    <div class="updown"><br><br><br></div>
+    <!-- Start of Row & Column -->
     <!-- End of Row & Column -->
 </body>
+
 </html>

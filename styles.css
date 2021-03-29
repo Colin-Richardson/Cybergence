@@ -81,7 +81,7 @@ body {
 }
 
 .updown {
-  background: linear-gradient(to top, #000000 0%, #000066 400%);
+  background: linear-gradient(to top, #000000 0%, #000066 100%);
 }
 
 .teamback {
@@ -189,7 +189,7 @@ padding: 21%;
 .eyeback {
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboeye.jpg');
+  background: linear-gradient(rgba(0, 0, 0, .97), rgba(0, 0, 0, .8)), url('img/jumboeye.jpg');
   height: 100%;
 }
 
@@ -198,4 +198,23 @@ padding: 21%;
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
   height: 100%;
+}
+
+.exodesctit {
+  color: white;
+  text-align: center;
+  font: 200%;
+}
+
+.exosuit {
+  padding-left: 10%;
+}
+
+.exodesc {
+  color: white;
+  font-size: 175%;
+}
+
+.navopacity {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
 }
