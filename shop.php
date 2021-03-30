@@ -14,7 +14,7 @@
     <!-- Icon -->
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <!-- Title -->
-    <title>Our Mission</title>
+    <title>Shop Cybergence</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="augmented_arms.php">Augmented Arms</a>
                 <a class="nav-item nav-link" href="cyber_contacts.php">Cyber Contacts</a>
-                <a class="nav-item nav-link" href="exoskeleton.php">Exoskeleton</a>
+                <a class="nav-item nav-link" href="exoskeleton.php">ExoSuit</a>
                 <a class="nav-item nav-link acnav" href="account.php">Account</a>
             </div>
 

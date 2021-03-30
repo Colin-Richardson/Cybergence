@@ -15,56 +15,51 @@
     <!-- Icon -->
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <!-- Title -->
-    <title>Exoskeleton</title>
+    <title>ExoSuit</title>
 </head>
 
 <body>
     <!-- Navigation -->
     <div class="exoback">
-    <nav class="navbar navbar-expand-lg navopacity">
-        <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
-            aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarcollapse">
-
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="augmented_arms.php">Augmented Arms</a>
-                <a class="nav-item nav-link" href="cyber_contacts.php">Cyber Contacts</a>
-                <a class="nav-item nav-link" href="exoskeleton.php">Exoskeleton</a>
-                <a class="nav-item nav-link acnav" href="account.php">Account</a>
-            </div>
-
-        </div>
-    </nav>
+    <?php
+    include "includes/shopnav.php";
+    ?>
     <!-- End Navigation -->
     <!-- Exoskeleton Jumbotron -->
-        <div class="jumbotron jumbotron-fluid productjumbo">
-            <div class="container state">
-                <h1 class="display-3">Exoskeleton</h1>
-                <h2 class="display-7">Cybergence's Innovative Physique</h2>
-            </div>
+    <div class="jumbotron jumbotron-fluid productjumbo">
+        <div class="container state">
+            <h1 class="display-3">Exoskeleton</h1>
+            <h2 class="display-7">Cybergence's Innovative Physique</h2>
         </div>
+    </div>
     </div>
     <!-- End of Exoskeleton Jumbotron -->
     <div class="updown"><br><br><br></div>
+    <!-- Start Quote Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="exodesctit">Our Exoskeleton</h1><br>
+        <p class="exodesc">"We've been working on a project that would both stabilize and advance our human bodies as we
+            know it, and we are
+            very excited to finally unveil our very own Cybergence ExoSuit!" - Colin Richardson</p>
+    </div>
+    <!-- End of Quote Jumbotron -->
+    <div class="downup"><br><br><br></div>
     <!-- Start of Row & Column -->
-        <div class="row">
-            <div class="col-3">
-                <img class="exosuit" src="img/exosuit.jpg" alt="Exosuit">
-            </div>
-            <div class="col-9">
-                <h1 class="exodesctit">Our Exoskeleton...</h1><br>
-                <ul class="exodesc">
-                    <li>Provides stability to the arms including triceps, forearms, and biceps.</li>
-                    <li>Enhances spine and corrects alignment, relieving pain and moving blood throughout the body.</li>
-                    <li>Adds more strength the the quadriceps and hamstrings, allowing for a more advanced carrying
-                        capacity.</li>
-                </ul>
-            </div>
+    <div class="row">
+        <div class="col-6 exobreakpic">
+            <img class="exobreakdown" src="img/exobreakdown.jpg" alt="ExoSuit Breakdown">
         </div>
-    <div class="row"></div>
+        <div class="col-6">
+            <h1 class="display-5 exobreaktit">In-Depth Specifications</h1>
+            <ul class="exobreakdesc">
+                <li>Helmet - </li>
+                <li>Thighs - </li>
+                <li>Arms - </li>
+                <li>Feet - </li>
+                <li>Chest - </li>
+            </ul>
+        </div>
+    </div>
     <!-- End of Row & Column -->
 </body>
 

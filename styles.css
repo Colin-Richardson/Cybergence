@@ -77,7 +77,7 @@ body {
 }
 
 .downup {
-  background: linear-gradient(to bottom, #000000 0%, #000066 400%);
+  background: linear-gradient(to bottom, #000000 0%, #000066 100%);
 }
 
 .updown {
@@ -213,8 +213,31 @@ padding: 21%;
 .exodesc {
   color: white;
   font-size: 175%;
+  text-align: center;
 }
 
 .navopacity {
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
+}
+
+.exobreakpic{
+ background: linear-gradient(rgba(0, 0, 102, .3), rgba(0, 0, 102, .3));
+}
+
+.exobreakdown {
+  height: 97%;
+  width: 97%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.exobreaktit {
+  color: white;
+  text-align: center;
+}
+
+.exobreakdesc {
+  color: white;
+  font-size: 175%;
 }
