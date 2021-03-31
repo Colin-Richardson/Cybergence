@@ -50,5 +50,8 @@
         </div>
     </div>
     <!-- End of Row & Column -->
+    <?php 
+        include "includes/footer.php"
+    ?>
 </body>
 </html>

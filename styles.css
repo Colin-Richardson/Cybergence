@@ -279,7 +279,7 @@ padding: 21%;
 
 footer {
   margin-top: 9%;
-  background-color: #010125;
+  background-color: #010127;
   color: white;
 }
 
@@ -291,14 +291,37 @@ footer a {
 footer a:hover, footer a:focus {
   color: white;
   text-decoration:none;
-  border-bottom:1px dotted #999;
+  border-bottom:1px dotted white;
 }
 
 footer .form-control {
     background-color: black;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1px 0 0 rgba(250, 250, 250, 0.1);
     border: none;
     resize: none;
-    color: #d1d2d2;
+    color: white;
     padding: 0.7em 1em;
+}
+.button2 {
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.3s;
+  }
+  .button2:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+
+  @media all and (max-width:30em) {
+   .button2 {
+  display:block;
+  margin:0.4em auto;
+  }
 }

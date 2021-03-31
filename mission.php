@@ -169,6 +169,9 @@
         </div>
     </div>
     <!-- End of Team -->
+    <?php 
+        include "includes/footer.php"
+    ?>
 <script src="js/scripts.js"></script>
 </body>
 

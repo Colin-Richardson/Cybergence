@@ -37,6 +37,9 @@
     <div class="updown"><br><br><br></div>
     <!-- Start of Row & Column -->
     <!-- End of Row & Column -->
+    <?php 
+        include "includes/footer.php"
+    ?>
 </body>
 
 </html>
