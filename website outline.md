@@ -34,7 +34,7 @@
 - ~product value -> btc converter~ 
   * ~Display's the product's price in btc~
 - account creation for buying
-  * Username & password
+  * ~Username & password~
   * Newsletter
   * BTC info
 - admin page data
