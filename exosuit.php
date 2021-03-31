@@ -67,11 +67,11 @@
         </div>
     </div>
     <!-- End of Row & Column -->
-    <br>
+    <br><br>
     <!-- Buy -->
     <div class="jumbotron">
         <h1 class="display-5 exobuytit">Join the movement and contribute to the progression of humanity</h1>
-        <div class="buybutton"><a href="#" class="button1">Buy Now</a></div>
+        <div class="buybutton"><a href="#" class="button1">Buy Now</a></div><br><br>
     </div>
     <?php 
         include "includes/footer.php"

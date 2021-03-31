@@ -72,7 +72,7 @@
     <!-- End of Explanation & gif-->
     <br><br>
     <!-- Ethics Jumbotron -->
-    <div class="row fadein secs">
+    <div class="row fadein">
         <div class="col-12 ethicback sec2">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container state">
@@ -98,7 +98,7 @@
     </div>
     <!-- End of Ethics List-->
     <!-- Team-->
-    <div class="row fadein secs ">
+    <div class="row fadein secs">
         <div class="col-12 teamback sec3">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container state">
