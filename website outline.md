@@ -9,10 +9,8 @@
 - product detail page
   * In-depth detail page of a product
   * generated in php from db
-  * FAQs
+  * FAQs (later)
   * Picture
-  * Video
-  * Reviews
   * Place order = NO CART SYSTEM
 - Our mission page
   * About us
@@ -46,6 +44,7 @@
 
 
 # Products:
-  - BIG 'ol robot arms - massive robot arms - 5 BTC
-  - Robotic Eye - Cool robot eye - 10 BTC
+  - Robot Arms - massive robot arms - 10 BTC
+  - Robotic Eye - Cool robot eye - 5 BTC
+  - Exo Suit - Cyborg - 20 BTC
 

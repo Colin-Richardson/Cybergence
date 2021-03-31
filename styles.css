@@ -203,7 +203,7 @@ padding: 21%;
 .exodesctit {
   color: white;
   text-align: center;
-  font: 200%;
+  font-size: 175%;
 }
 
 .exosuit {
@@ -212,7 +212,7 @@ padding: 21%;
 
 .exodesc {
   color: white;
-  font-size: 175%;
+  font-size: 125%;
   text-align: center;
 }
 
@@ -220,7 +220,7 @@ padding: 21%;
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
 }
 
-.exobreakpic{
+.exobreak{
  background: linear-gradient(rgba(0, 0, 102, .3), rgba(0, 0, 102, .3));
 }
 
@@ -239,5 +239,66 @@ padding: 21%;
 
 .exobreakdesc {
   color: white;
-  font-size: 175%;
+  font-size: 125%;
+}
+
+.exobuytit {
+  color: white;
+  text-align: center;
+}
+
+.buybutton {
+  margin-left: 40%;
+  padding-top: 2%;
+}
+
+.button1 {
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.5s;
+  font-size: 200%;
+  }
+  .button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+
+  @media all and (max-width:30em) {
+   .button1 {
+  display:block;
+  margin:0.4em auto;
+  }
+}
+
+footer {
+  margin-top: 9%;
+  background-color: #010125;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: white;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: black;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
 }
