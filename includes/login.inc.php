@@ -11,7 +11,7 @@
 			exit();
 		} else 
 		{
-			$sql = "SELECT * FROM users WHERE uidUsers=? OR emailUsers=?;";
+			$sql = "SELECT * FROM Users WHERE username=? OR email=?;";
 			$stmt = mysqli_stmt_init($conn);
 			if (!mysqli_stmt_prepare($stmt, $sql))
 			{		
@@ -24,7 +24,7 @@
 				$result = mysqli_stmt_get_result($stmt);
 				if ($row = mysqli_fetch_assoc($result))
 				{
-					$pwdCheck = password_verify($password,$row['pwdUsers']);
+					$pwdCheck = password_verify($password,$row['password']);
 					if ($pwdCheck == false)
 					{	
 						header("Location: ../login.php?error=wrongpwd");
@@ -32,8 +32,8 @@
 					} elseif ($pwdCheck == true) 
 					{
 						session_start();
-						$_SESSION['userId'] = $row['idUsers'];
-						$_SESSION['userUid'] = $row['uidUsers'];
+						$_SESSION['userId'] = $row['id'];
+						$_SESSION['userUid'] = $row['user'];
 						header("Location: ../login.php?login=success");
 						exit();
 
