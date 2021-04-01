@@ -212,8 +212,9 @@ padding: 21%;
 
 .exodesc {
   color: white;
-  font-size: 125%;
+  font-size: 100%;
   text-align: center;
+  padding: 0% 3% 0% 3%;
 }
 
 .navopacity {
@@ -235,16 +236,18 @@ padding: 21%;
 .exobreaktit {
   color: white;
   text-align: center;
+  font-size: 250%;
 }
 
 .exobreakdesc {
   color: white;
-  font-size: 125%;
+  font-size: 100%;
 }
 
 .exobuytit {
   color: white;
   text-align: center;
+  font-size: 230%;
 }
 
 .buybutton {
@@ -323,4 +326,17 @@ footer .form-control {
   display:block;
   margin:0.4em auto;
   }
+}
+
+.indepth-eye {
+  height: 85%;
+  width: 80%;
+}
+
+.eyebreak {
+  padding-right: 2%;
+}
+
+.eyebreakh2 {
+  font-size: 110%;
 }
