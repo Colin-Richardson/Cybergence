@@ -2,8 +2,8 @@
 	if(isset($_POST['contact-submit']))
 	{
 		require 'dbh.inc.php';
-		//session_start(); //remove if header 
-		$user = $_POST['userId'];
+		session_start(); //remove if header 
+		$user = $_SESSION['userId'];
 		$msg = $_POST['msg'];		
 
 		if(empty($msg) || empty($user))
@@ -12,35 +12,34 @@
 			exit();
 		}  elseif (!preg_match("/^[a-zA-Z0-9]*$/", $msg)) 
 		{
-			header("location: ../signup.php?error=invaliduid&email=".$msg);	
+			header("location: ../signup.php?error=invalidchars&msg=".$msg);	
 			exit();
 		
 		}  else 
 		{
-			$sql = "SELECT username FROM Users WHERE username=?";
+			$sql = "SELECT user FROM Contact WHERE user=?";
 			$stmt = mysqli_stmt_init($conn);	
 			if (!mysqli_stmt_prepare($stmt, $sql))
 			{
-				header("location: ../signup.php?error=sqlerror");	
+				header("location: ../contact.php?error=sqlerror1");	
 				exit();
 			} else
 			{
-				mysqli_stmt_bind_param($stmt, "s", $username);
+				mysqli_stmt_bind_param($stmt, "s", $user);
 				mysqli_stmt_execute($stmt);
 				mysqli_stmt_store_result($stmt);
-				$resultCheck = mysqli_stmt_num_rows($stmt);
-				$sql = "INSERT INTO Contact (user, msg) VALUES (?, ?)";
+				//$result= mysqli_stmt_fetch($stmt); //not real, change this to check last date of user and limit posts to one per 5 minutes or some shit
+				$sql = "INSERT INTO Contact (user, message) VALUES (?, ?)";
 				$stmt = mysqli_stmt_init($conn);	
 				if (!mysqli_stmt_prepare($stmt, $sql))
 				{
-					header("location: ../signup.php?error=sqlerror");	
+					header("location: ../contact.php?error=".$user);	
 					exit();
 				} else
 				{
-					$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 					mysqli_stmt_bind_param($stmt, "ss", $user, $msg);
 					mysqli_stmt_execute($stmt);
-					header("location: ../login.php?signup=success");	
+					header("location: ../contact.php?AAAAAa=");	
 					exit();
 					
 				}

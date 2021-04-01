@@ -1,7 +1,5 @@
 <?php
 	session_start();
-	$_POST['userId']=$_SESSION['userId'];
-	echo $_SESSION['userId'];
 ?>
 
 <h1>signup</h1>
