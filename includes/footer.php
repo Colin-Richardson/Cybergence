@@ -24,7 +24,7 @@
                 <br>
             </div>
             <div class="col-7"><br>
-                <h5 class="text-md-right">Contact Us</h5>
+                <h5 class="text-md-right">Newsletter</h5>
                 <hr>
                 <form>
                     <fieldset class="form-group">
