@@ -63,9 +63,10 @@
     </div>
     <!-- End of Row & Column -->
     <!-- Buy -->
-    <div class="jumbotron armbreak"><br><br><br>
-        <h1 class="display-5 exobuytit">Join the movement and contribute to the progression of humanity</h1>
-        <div class="buybutton"><a href="#" class="button1">Buy Now</a></div><br><br><br><br>
+    <div class="jumbotron armbuy"><br><br><br>
+    <?php 
+        include "includes/buymodal.php"
+    ?>
     </div>
     <?php 
         include "includes/footer.php"

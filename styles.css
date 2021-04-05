@@ -42,7 +42,12 @@ body {
   margin-left: 80%;
 }
 
-.acnav {
+.sunav {
+  right: 10%;
+  position: absolute;
+}
+
+.lginnav {
   right: 5%;
   position: absolute;
 }
@@ -275,6 +280,7 @@ body {
   text-align: center;
   transition: all 0.5s;
   font-size: 200%;
+  background-color: transparent;
 }
 
 .button1:hover {
@@ -366,4 +372,72 @@ footer .form-control {
 .armbreakdesc {
     color: white;
     font-size: 130%;
+}
+
+.armbuy {
+  background: linear-gradient(rgba(0, 0, 49, 0.9), rgba(0, 0, 102, .1));
+  border-top: 10px solid black;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin-left: 350px; 
+  margin-top: 100px;
+  left: 0;
+  top: 0;
+  width: 50%; /* Half width */
+  height: 50%; /* Half height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  color: white;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  cursor: pointer;
+}
+
+.modal-header {
+  padding-right: 36%;
+  background-color: #00022a;
+  color: white;
+}
+
+.modal-body {
+  text-align: center;
+  font-size: 150%;
 }

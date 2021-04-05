@@ -8,7 +8,6 @@
   * Scroll down for products
 - product detail page
   * In-depth detail page of a product
-  * generated in php from db
   * FAQs (later)
   * Picture
   * Place order = NO CART SYSTEM

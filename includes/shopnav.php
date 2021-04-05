@@ -11,7 +11,8 @@
                     <a class="nav-item nav-link" href="augmented_arms.php">Augmented Arms</a>
                     <a class="nav-item nav-link" href="cyber_contacts.php">Cyber Contacts</a>
                     <a class="nav-item nav-link" href="exosuit.php">ExoSuit</a>
-                    <a class="nav-item nav-link acnav" href="account.php">Account</a>
+                    <a class="nav-item nav-link sunav" href="signup.php">Sign Up</a>
+                    <a class="nav-item nav-link lginnav" href="login.php">Login</a> 
                 </div>
 
             </div>
