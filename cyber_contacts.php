@@ -71,7 +71,7 @@
     <!-- Buy -->
     <div class="jumbotron">
     <?php 
-        include "includes/buymodal.php"
+        include "includes/loginmodal.php"
     ?>
     </div>
     <?php 
