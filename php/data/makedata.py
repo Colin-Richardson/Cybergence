@@ -5,7 +5,7 @@ base = datetime.datetime.today()
 data = []
 for x in range(365):
     date = base - datetime.timedelta(days=x)
-    sales = random.randint(10000,30000)
+    sales = random.randint(7,50)
     data.append({
                  "date"  : str(date),
                  "sales" : sales

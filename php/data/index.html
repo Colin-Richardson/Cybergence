@@ -21,28 +21,26 @@ Your browser does not support the HTML canvas tag.
 		ctx.beginPath();
 		const rowSize = [25,25];
 		const chartSize = [500,325];
+		const max = 50;
 		ctx.lineWidth = 0.25;
-		let i = 25;
-		while (i <= chartSize[1]){
+		let i = 0;
+		while (i <= chartSize[1])
+		{
 			//y lines
-			ctx.moveTo(0,i);
-			ctx.lineTo(chartSize[0], i);
+			ctx.moveTo(0,i+25);
+			ctx.lineTo(chartSize[0], i+25);
 			//y label
 			if(i<325){
-				ctx.fillText(325-i +"k",505,i);
-			} else{
-				ctx.fillText(325-i,505,i);
+				ctx.fillText((max)-((i/25)*(50/(chartSize[1]/rowSize[1]))),505,i+25);
 			}
 			i += rowSize[1];
 		}
 		i = 0;
-		while (i <= chartSize[0]){
-			//x lines
-			//ctx.moveTo(i,0);
-			//ctx.lineTo(i, chartSize[1]);
-			//x label
-			
+		while (i <= chartSize[0])
+		{
 			i += rowSize[0];
+			//use mouseX to get mouse coord then translate to integer datapoint
+			
 		}
 		//y label
 		ctx.stroke();
@@ -51,9 +49,11 @@ Your browser does not support the HTML canvas tag.
 		let x = 0;
 		i = 0;
 		//extra noodly spaghetti
-		let oldcord = [0,chartSize[1]-sales[0].sales/100];
-		while(x<=chartSize[0]){
-			let y = chartSize[1] - sales[i].sales/100;
+		let oldcord = chartSize[1] * ((max-sales[i].sales)/max)+25;
+		while(x<=chartSize[0])
+		{
+			let y = chartSize[1] * ((max-sales[i].sales)/max)+25;
+			console.log(sales[i].sales)
 			ctx.moveTo(oldcord[0],oldcord[1]);
 			ctx.lineTo(x, y);
 			oldcord = [x,y]
@@ -62,5 +62,20 @@ Your browser does not support the HTML canvas tag.
 		}
 		ctx.strokeStyle="red";
 		ctx.stroke();
+		
+	function getMousePosition(canvas, event) 
+	{
+		let rect = canvas.getBoundingClientRect();
+		let mouseX = event.clientX - rect.left;
+        }
+      
+        let canvasElem = document.querySelector("canvas");
+          
+        canvasElem.addEventListener("mousemove", function(e)
+        {
+            getMousePosition(canvasElem, e);
+        });
+		
+
 	</script>
 </body>
