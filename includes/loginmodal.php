@@ -1,6 +1,6 @@
 <h1 class="display-5 exobuytit">Join the movement and contribute to the progression of humanity</h1>
 <div class="buybutton">
-    <button id="myBtn" class="button1">Buy Now</button>
+    <button id="myBtn" onclick="on()" class="button1">Buy Now</button>
 </div>
 
 <!-- The Modal -->
@@ -12,7 +12,7 @@
       <span class="close">&times;</span>
       <h2 class="logmodaltit">Create an account to order</h2>
     </div>
-    <div class="modal-body"><br><br><br><br><br><br><br><br><br>
+    <div class="modal-body"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <div class="login-box">
   <form>
     <div class="user-box">
@@ -23,13 +23,18 @@
       <input type="password" name="" required="">
       <label>Password</label>
     </div>
-    <a href="#">
+    <div class="user-box">
+      <input type="password" name="" required="">
+      <label>Confirm Password</label>
+    </div>
+    <a href="">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
-      Submit
+      Sign Up
     </a>
+    <p> <br> If you already have an account <a href="login.php">Login</a></p>
   </form>
 </div>
     </div>
