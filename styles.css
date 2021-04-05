@@ -352,3 +352,18 @@ footer .form-control {
 .eyebreakh2 {
   font-size: 110%;
 }
+
+.indepth-arm {
+  height: 95%;
+  width: 95%;
+  padding: 2% 2% 2%;
+}
+
+.armbreak {
+  background: linear-gradient(rgba(63, 63, 63, .7), rgba(63, 63, 63, .7));
+}
+
+.armbreakdesc {
+    color: white;
+    font-size: 130%;
+}
