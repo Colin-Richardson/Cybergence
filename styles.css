@@ -370,8 +370,8 @@ footer .form-control {
 }
 
 .armbreakdesc {
-    color: white;
-    font-size: 130%;
+  color: white;
+  font-size: 130%;
 }
 
 .armbuy {
@@ -381,16 +381,22 @@ footer .form-control {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  margin-left: 350px; 
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  margin-left: 350px;
   margin-top: 100px;
   left: 0;
   top: 0;
-  width: 50%; /* Half width */
-  height: 50%; /* Half height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 50%;
+  /* Half width */
+  height: 50%;
+  /* Half height */
+  overflow: auto;
+  /* Enable scroll if needed */
 }
 
 /* Modal Content */
@@ -409,13 +415,27 @@ footer .form-control {
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /* The Close Button */
@@ -449,9 +469,9 @@ footer .form-control {
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, .5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
   border-radius: 10px;
 }
 
@@ -477,9 +497,10 @@ footer .form-control {
   outline: none;
   background: transparent;
 }
+
 .login-box .user-box label {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   padding: 10px 0;
   font-size: 16px;
@@ -488,8 +509,8 @@ footer .form-control {
   transition: .5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
   color: #03e9f4;
@@ -515,9 +536,9 @@ footer .form-control {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
 }
 
 .login-box a span {
@@ -538,7 +559,9 @@ footer .form-control {
   0% {
     left: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -557,7 +580,9 @@ footer .form-control {
   0% {
     top: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -576,7 +601,9 @@ footer .form-control {
   0% {
     right: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -595,7 +622,9 @@ footer .form-control {
   0% {
     bottom: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }
@@ -627,7 +656,7 @@ footer .form-control {
   width: remy(800px);
   height: remy(480px);
   border-radius: remy(3px);
-  box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);
+  box-shadow: 0px remy(3px) remy(7px) rgba(0, 0, 0, .25);
 }
 
 .signup__overlay {
@@ -655,7 +684,7 @@ footer .form-control {
 
 .thumbnail__content {
   position: relative;
-  z-index: 2;  
+  z-index: 2;
 }
 
 .thumbnail__content {
@@ -708,8 +737,6 @@ footer .form-control {
   background: rgb(4, 207, 243);
   border-radius: remy(35px);
 }
-
-
 
 .signup__link {
   font-size: .8rem;
