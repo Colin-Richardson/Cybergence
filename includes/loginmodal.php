@@ -12,21 +12,26 @@
       <span class="close">&times;</span>
       <h2 class="logmodaltit">Create an account to order</h2>
     </div>
-    <div class="modal-body"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="modal-body"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <div class="login-box">
-  <form>
+  <form action="includes/signup.inc.php" method="post">
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" name="uid" required="">
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="" required="">
+      <input type="text" name="mail" required="">
+      <label>Email</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="pwd" required="">
       <label>Password</label>
     </div>
     <div class="user-box">
-      <input type="password" name="" required="">
+      <input type="password" name="pwd-repeat" required="">
       <label>Confirm Password</label>
     </div>
+    <button class="loginbutton" type="submit" name="signup-submit">
     <a href="">
       <span></span>
       <span></span>
@@ -34,6 +39,7 @@
       <span></span>
       Sign Up
     </a>
+    </button>
     <p> <br> If you already have an account <a href="login.php">Login</a></p>
   </form>
 </div>
