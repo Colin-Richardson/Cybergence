@@ -744,3 +744,7 @@ footer .form-control {
   text-decoration: underline;
   color: #030345;
 }
+
+.transparent {
+  color: transparent;
+}

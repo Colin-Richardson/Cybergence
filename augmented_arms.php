@@ -50,7 +50,7 @@
         </div>
         <div class="col-6 eyebreak"><br><br><br><br>
             <h1 class="display-5 exobreaktit">In-Depth Specifications</h1><br>
-            <h2 class="state eyebreakh2">The biceps, forearms, and triceps are treated the extreme care so that we do not cause any permanent damage to the arm*</h2>
+            <h2 class="state eyebreakh2">The biceps, forearms, and triceps are manufactured with Valerian steele to provide superior durability.</h2>
             <ul class="armbreakdesc">
                 <br>
                 <li>Enhanced strength when curling objects</li>

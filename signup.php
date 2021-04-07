@@ -72,7 +72,7 @@
               <input class="btn btn--form" type="submit" name="signup-submit" value="Register" />
             </li>
             <li>
-              <a class="signup__link signupa" href="login.php">I am already a member</a>
+              <a class="signup__link signupa" href="login.php">I have an account</a>
             </li>
           </ul>
         </div>
