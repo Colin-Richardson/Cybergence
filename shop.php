@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,7 +21,7 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg" id="navbar">
-    <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
+        <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
             aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,15 +33,12 @@
                 <a class="nav-item nav-link" href="cyber_contacts.php">Cyber Contacts</a>
                 <a class="nav-item nav-link" href="exosuit.php">ExoSuit</a>
                 <a class="nav-item nav-link sunav" href="signup.php">Sign Up</a>
-                <a class="nav-item nav-link lginnav" href="login.php">Login</a>               
+                <a class="nav-item nav-link lginnav" href="login.php">Login</a>
             </div>
 
         </div>
     </nav>
     <!-- End Navigation -->
-    <!-- Start of Row & Column -->
-    <div class="row">
-        <div class="col-12">
     <!-- Shop Jumbotron -->
     <div class="jumbotron jumbotron-fluid shopback">
         <div class="container state"><br><br><br>
@@ -48,11 +46,38 @@
         </div>
     </div>
     <!-- End of Shop Jumbotron -->
+    <!-- Start of Row & Column -->
+    <div class="row">
+        <div class="col-5">
+            <img class="shopimg" src="img/shoparm.jpg" alt="">
+        </div>
+        <div class="col-7">
+            <h1 class="shopheader display-6">Augmented Arms</h1>
         </div>
     </div>
+    <br><br><br><br><br>
+    <div class="row">
+        <div class="col-5">
+            <img class="shopimg" src="img/shopcontacts.jpg" alt="">
+        </div>
+        <div class="col-7">
+            <h1 class="shopheader display-6">Cyber Contacts</h1>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="row">
+        <div class="col-5">
+            <img class="shopimg" src="img/shopexo.jpg" alt="">
+        </div>
+        <div class="col-7">
+            <h1 class="shopheader display-6">ExoSuit</h1>
+        </div>
+    </div>
+    <br>
     <!-- End of Row & Column -->
     <?php 
         include "includes/footer.php"
     ?>
 </body>
+
 </html>

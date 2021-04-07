@@ -387,16 +387,13 @@ footer .form-control {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  margin-left: 350px;
-  margin-top: 100px;
-  left: 0;
-  top: 0;
-  width: 50%;
+  width: 55%;
   /* Half width */
-  height: 50%;
+  height: 100%;
   /* Half height */
   overflow: auto;
   /* Enable scroll if needed */
+  margin-left: 22%;
 }
 
 /* Modal Content */
@@ -452,7 +449,7 @@ footer .form-control {
 }
 
 .modal-header {
-  padding-right: 36%;
+  padding-right: 27%;
   background-color: #00022a;
   color: white;
 }
@@ -747,4 +744,22 @@ footer .form-control {
 
 .transparent {
   color: transparent;
+}
+
+.loginbutton {
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+}
+
+.shopimg {
+height: 100%;
+width: 100%;
+margin-left: 4%;
+border: #000066 solid 6px;
+}
+
+.shopheader {
+  text-align: center;
+  color: white;
 }
