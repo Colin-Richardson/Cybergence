@@ -28,12 +28,12 @@
 				mysqli_stmt_bind_param($stmt, "s", $user);
 				mysqli_stmt_execute($stmt);
 				mysqli_stmt_store_result($stmt);
-				//$result= mysqli_stmt_fetch($stmt); //not real, change this to check last date of user and limit posts to one per 5 minutes or some shit
+				//$result= mysqli_stmt_fetch($stmt); //not real, change this to check last date of user and limit posts to one per 5 minutes
 				$sql = "INSERT INTO Contact (user, message) VALUES (?, ?)";
 				$stmt = mysqli_stmt_init($conn);	
 				if (!mysqli_stmt_prepare($stmt, $sql))
 				{
-					header("location: ../contact.php?error=".$user);	
+					header("location: ../contact.php?error=sqlerror");	
 					exit();
 				} else
 				{
