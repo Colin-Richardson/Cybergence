@@ -53,6 +53,13 @@
         </div>
         <div class="col-7">
             <h1 class="shopheader display-6">Augmented Arms</h1>
+            <br>
+            <p class="shopdesc">As we were developing our ExoSuit, we became fascinated with the prospect of a more
+                improved arm mechanic that can last on its own and produce incredible power. Thus, we started our
+                Augmented Arm collection. This state-of-the-art body modification includes innovations in stability
+                relating to the main arm muscle groups.</p>
+            <br><br>
+            <a class="shopbutton" href="augmented_arms.php">Learn More</a>
         </div>
     </div>
     <br><br><br><br><br>
@@ -62,6 +69,14 @@
         </div>
         <div class="col-7">
             <h1 class="shopheader display-6">Cyber Contacts</h1>
+            <br>
+            <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
+                quibusdam porro harum
+                natus in temporibus mollitia aut eveniet, expedita accusantium molestias dolores illo eius ad fugiat
+                quos.
+                Cupiditate, nemo!</p>
+            <br><br>
+            <a class="shopbutton" href="cyber_contacts.php">Learn More</a>
         </div>
     </div>
     <br><br><br><br><br>
@@ -71,6 +86,14 @@
         </div>
         <div class="col-7">
             <h1 class="shopheader display-6">ExoSuit</h1>
+            <br><br>
+            <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
+                quibusdam porro harum
+                natus in temporibus mollitia aut eveniet, expedita accusantium molestias dolores illo eius ad fugiat
+                quos.
+                Cupiditate, nemo!</p>
+            <br>
+            <a class="shopbutton" href="exosuit.php">Learn More</a>
         </div>
     </div>
     <br>
