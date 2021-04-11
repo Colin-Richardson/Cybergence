@@ -38,6 +38,10 @@ function message($key, $val)
 			$msg = "Username is already taken";
 			$type="error";
 			break;
+		case "emailtaken":
+			$msg = "Email is already taken";
+			$type="error";
+			break;
 		case "invalidchars":
 			$msg = "Invalid characters";
 			$type="error";

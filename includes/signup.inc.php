@@ -35,40 +35,34 @@
 			
 		} else 
 		{
-			$sql = "SELECT username FROM Users WHERE username=?";
-			$stmt = mysqli_stmt_init($conn);	
-			if (!mysqli_stmt_prepare($stmt, $sql))
+
+			if (checkRepeat("username", $username))
 			{
-				header("location: ../signup.php?error=sqlerror");	
+				header("location: ../signup.php?error=usertaken&mail=".$email);	
+				exit();
+			} elseif (checkRepeat("email", $email))
+			{
+				header("location: ../signup.php?error=emailtaken&uid=".$username);	
 				exit();
 			} else
 			{
-				mysqli_stmt_bind_param($stmt, "s", $username);
-				mysqli_stmt_execute($stmt);
-				mysqli_stmt_store_result($stmt);
-				$resultCheck = mysqli_stmt_num_rows($stmt);
-				if ($resultCheck > 0){
-					header("location: ../signup.php?error=usertaken&mail=".$email);	
+				$sql = "INSERT INTO Users (username, email, password) VALUES (?, ?, ?)";
+				$stmt = mysqli_stmt_init($conn);	
+				if (!mysqli_stmt_prepare($stmt, $sql))
+				{
+					header("location: ../signup.php?error=sqlerror");	
 					exit();
-				
 				} else
-					$sql = "INSERT INTO Users (username, email, password) VALUES (?, ?, ?)";
-					$stmt = mysqli_stmt_init($conn);	
-					if (!mysqli_stmt_prepare($stmt, $sql))
-					{
-						header("location: ../signup.php?error=sqlerror");	
-						exit();
-					} else
-					{
-						$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
-						mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPwd);
-						mysqli_stmt_execute($stmt);
-						header("location: ../login.php?signup=success");	
-						exit();
-						
-					}
+				{
+					$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
+					mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPwd);
+					mysqli_stmt_execute($stmt);
+					header("location: ../login.php?signup=success");	
+					exit();
+					
 				}
 			}
+		}
 		mysqli_stmt_close($stmt);
 		mysqli_close($conn);
 	} else 
@@ -76,4 +70,26 @@
 		header("location: ../signup.php");
 		exit();
 	}
+function checkRepeat($field, $input)
+{
+	$sql = "SELECT ".$field." FROM Users WHERE ".$field."=?";
 
+	$stmt = mysqli_stmt_init($conn);	
+	if (!mysqli_stmt_prepare($stmt, $sql))
+	{
+		header("location: ../signup.php?error=sqlerror".$field);	
+		exit();
+	} else
+	{
+		{
+			mysqli_stmt_bind_param($stmt, "s", $input);
+			mysqli_stmt_execute($stmt);
+			mysqli_stmt_store_result($stmt);
+			if ( mysqli_stmt_num_rows($stmt) > 0)
+			{
+				return true;
+			}
+		}
+	}
+	return false;
+}
