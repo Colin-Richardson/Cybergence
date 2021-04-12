@@ -33,6 +33,7 @@
             </div>
         </div>
     </div>
+    <div class="gradient">
     <!-- End of Arms Jumbotron -->
     <div class="updown"><br><br><br></div>
     <!-- Start Quote Jumbotron -->
@@ -42,11 +43,11 @@
             arms, focusing on the three main muscles: the biceps, the triceps, and the forearm" - Colin Richardson</p>
     </div>
     <!-- End of Quote Jumbotron -->
-    <div class="downup"><br><br><br></div>
+    <div class="downup"><br><br><br></div></div>
     <!-- Start of Row & Column -->
     <div class="row armbreak">
         <div class="col-6">
-            <img class="indepth-arm" src="img/in-deptharm.jpg" alt="Arm Breakdown">
+            <img class="indepth-arm" src="img/in-deptharm.png" alt="Arm Breakdown">
         </div>
         <div class="col-6 eyebreak"><br><br><br><br>
             <h1 class="display-5 exobreaktit">In-Depth Specifications</h1><br>

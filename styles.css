@@ -84,12 +84,14 @@ body {
 }
 
 .downup {
-  background: linear-gradient(to bottom, #000000 0%, #000066 100%);
 }
 
 .updown {
-  background: linear-gradient(to top, #000000 0%, #000066 100%);
 }
+.gradient {
+	  background: linear-gradient(to top, #000000 0%, #141414 100%);
+}
+
 
 .teamback {
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/ethicsbackground.jpg');
@@ -365,7 +367,8 @@ footer .form-control {
 }
 
 .armbreak {
-  background: linear-gradient(rgba(63, 63, 63, .7), rgba(63, 63, 63, .7));
+  /*background: linear-gradient(rgba(63, 63, 63, .7), rgba(63, 63, 63, .7)); */
+  background: linear-gradient(to bottom, #000000 0%, #141414 100%);
 }
 
 .armbreakdesc {
