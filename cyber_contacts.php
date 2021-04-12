@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation -->
-    <div class="eyeback">
+    <div class="productback eyeback">
         <?php
     include "includes/shopnav.php";
     ?>

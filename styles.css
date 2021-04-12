@@ -193,26 +193,24 @@ body {
 }
 
 .armback {
-  background-repeat: no-repeat;
-  background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboarm.jpg');
-  height: 100%;
 }
 
 .eyeback {
-  background-repeat: no-repeat;
-  background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, .97), rgba(0, 0, 0, .8)), url('img/jumboeye.jpg');
-  height: 100%;
 }
 
 .exoback {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
+  }
+.productback {
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
+  background-attachment: fixed;
+  background-position: center;
   height: 100%;
-}
 
+}
 .exodesctit {
   color: white;
   text-align: center;

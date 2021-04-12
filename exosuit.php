@@ -20,7 +20,7 @@
 
 <body>
     <!-- Navigation -->
-    <div class="exoback">
+    <div class="productback exoback">
         <?php
     include "includes/shopnav.php";
     ?>
