@@ -827,8 +827,17 @@ footer .form-control {
   .expteam {
     padding-top: 5%;
   }
+  .shopimg {
+    height: 80%;
+    width: 100%;
+  }
 }
-
+@media screen and (max-width:767px) {
+  .shopimg {
+    height: 95%;
+    width: 90%;
+  }
+}
 @media screen and (max-width:765px) {
   .mtit {
     font-size: 180%;
