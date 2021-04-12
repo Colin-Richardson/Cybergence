@@ -44,8 +44,8 @@
     <div class="sec1">
     <div class="jumbotron jumbotron-fluid">
         <div class="container state">
-            <h1 class="display-4">Our Mission: Advancement</h1>
-            <p class="lead">Here at Cybergence, we believe that humanity develops progress.
+            <h1 class="display-4 mtit">Our Mission: Advancement</h1>
+            <p class="lead mstmnt">Here at Cybergence, we believe that humanity develops progress.
                 With this evident truth, we cultivate a sense of open-mindedness and tolerance for ideas that differ
                 from our own.
                 Our goal is to pave a path of innovation and ingenuity within the cybernetic industry,
@@ -56,7 +56,7 @@
     <!-- Start of Explanation & gif-->
     <div class="row">
         <div class="col-6">
-            <img class="fadein" src="img/misquote.gif" alt="tech earth">
+            <img class="misquotegif" src="img/misquote.gif" alt="tech earth">
         </div>
         <div class="col-6">
             <h2 class="lead misquote">"The idea that we are at the forefront of advancement, and that cybergence
@@ -70,14 +70,13 @@
     </div>
     </div>
     <!-- End of Explanation & gif-->
-    <br><br>
     <!-- Ethics Jumbotron -->
     <div class="row fadein">
         <div class="col-12 ethicback sec2">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container state">
-                    <h1 class="display-4">Our Ethics: Morality-based</h1>
-                    <p class="lead">There exists a debate regarding the ethics and morals surrounding cybernetics.
+                    <h1 class="display-4 ethtit">Our Ethics: Morality-based</h1>
+                    <p class="lead ethdesc">There exists a debate regarding the ethics and morals surrounding cybernetics.
                         Concerns including privacy, harm, theft, and much more are addressed in the following bullet
                         points:</p>
                 </div>
@@ -87,10 +86,14 @@
             <ul class="lead ethbul">
                 <li>We maintain secular standards, calling our employees to not uses biases stemmed from religious
                     beliefs.</li>
+                    <br>
                 <li>We implement guidelines that refrain from tracking.</li>
+                <br>
                 <li>We consult experts in purity and fair-based morals to ensure we have the best intentions in mind.
                 </li>
+                <br>
                 <li>We conduct routine investigations to make sure no information is being stolen.</li>
+                <br>
                 <li>We run analyses on all of our employees every month to guarantee works that contribute to the
                     greater-good of the world.</li>
             </ul>
@@ -102,8 +105,8 @@
         <div class="col-12 teamback sec3">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container state">
-                    <h1 class="display-4">Our Team: Experienced</h1>
-                    <p class="lead">Our team is the very personification of our core values: advancement, innovation,
+                    <h1 class="display-4 expteam">Our Team: Experienced</h1>
+                    <p class="lead expdesc">Our team is the very personification of our core values: advancement, innovation,
                         and
                         growth. Each employee is a pioneer in their field, furthering human progress towards
                         cybernetics. We

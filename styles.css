@@ -753,10 +753,10 @@ footer .form-control {
 }
 
 .shopimg {
-height: 100%;
-width: 100%;
-margin-left: 4%;
-border: #000066 solid 6px;
+  height: 100%;
+  width: 100%;
+  margin-left: 4%;
+  border: #000066 solid 6px;
 }
 
 .shopheader {
@@ -793,4 +793,146 @@ border: #000066 solid 6px;
   margin-left: 5%;
   margin-right: 5%;
   font-size: 120%;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8, 211, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width:990px) {
+  .misquotegif {
+    width: 90%;
+  }
+
+  .misquote {
+    padding-right: 2%;
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width:974px) {
+  .misfoot {
+    margin-top: 80%;
+  }
+
+  .teamback {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('#');
+  }
+}
+
+@media screen and (max-width:850px) {
+  .misfoot {
+    margin-top: 90%;
+  }
+  .expteam {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width:765px) {
+  .mtit {
+    font-size: 180%;
+    padding-top: 5%;
+  }
+
+  .mstmnt {
+    font-size: 103%;
+  }
+
+  .misquote {
+    padding-right: 8%;
+    font-size: 103%;
+  }
+
+  .misfoot {
+    margin-top: 100%;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .misfoot {
+    margin-top: 250%;
+  }
+}
+
+@media screen and (max-width:570px) {
+  .mtit {
+    font-size: 125%;
+    padding-top: 5%;
+  }
+
+  .mstmnt {
+    font-size: 70%;
+  }
+
+  .misquote {
+    padding-right: 8%;
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width:519px) {
+  .landtext {
+    font-size: 75%;
+  }
+
+  .ethtit{
+    font-size: 125%;
+  }
+
+  .ethdesc {
+    font-size: 100%;
+  }
+  .ethbul {
+    font-size: 100%;
+  }
+  .expteam {
+    font-size: 125%;
+  }
+  .expdesc {
+    font-size: 100%;
+  }
+  .misfoot {
+    margin-top: 300%;
+  }
+  
+}
+
+@media screen and (max-width:450px) {
+  .misfoot {
+    margin-top: 350%;
+  }
+
+  .footer {
+    font-size: 70%;
+  }
+
+  .footertit {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width:395px) {
+  .misfoot {
+    margin-top: 400%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .landtext {
+    font-size: 65%;
+  }
+
+  .misfoot {
+    margin-top: 450%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .landtext {
+    font-size: 60%;
+  }
+  .misfoot {
+    margin-top: 500%;
+  }
 }
