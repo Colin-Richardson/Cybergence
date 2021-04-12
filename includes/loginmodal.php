@@ -40,7 +40,7 @@
       Sign Up
     </a>
     </button>
-    <p> <br> If you already have an account <a href="login.php">Login</a></p>
+    <p> <br> If you already have an account <a href="login.php?rdr=<?php echo  str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']);?>">Login</a></p>
   </form>
 </div>
     </div>

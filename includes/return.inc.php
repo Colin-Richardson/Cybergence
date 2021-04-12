@@ -4,7 +4,7 @@ function message($key, $val)
 {
 	if($key == "error")
 	{
-		switch ($value)
+		switch ($val)
 		{
 		case "emptyfields":
 			$msg = "There are empty fields";
@@ -58,9 +58,9 @@ function message($key, $val)
 		
 	} elseif($key=="signup")
 	{
-		$msg = "there was an error";
-		$type="error";
-	} else {return}
+		$msg = "Signup Successful";
+		$type="success";
+	} else {return;}
 	
 		echo '
 			<div id="'.$type.'">
