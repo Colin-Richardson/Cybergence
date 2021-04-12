@@ -201,8 +201,9 @@ body {
 }
 
 .exoback {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
-  }
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboexo.jpg');
+}
+
 .productback {
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,6 +212,7 @@ body {
   height: 100%;
 
 }
+
 .exodesctit {
   color: white;
   text-align: center;
@@ -238,10 +240,9 @@ body {
 
 .exobreakdown {
   height: 97%;
-  width: 97%;
+  width: 100%;
   margin-top: 2%;
   margin-left: 2%;
-  margin-top: 1%;
 }
 
 .exobreaktit {
@@ -797,6 +798,26 @@ footer .form-control {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8, 211, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+@media screen and (max-width:1082px) {
+  .exobreakdown {
+    height: 90%;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  .exobreaktit {
+    color: white;
+    text-align: center;
+    font-size: 225%;
+  }
+  
+  .exobreakdesc {
+    color: white;
+    font-size: 95%;
+  }
+}
+
 @media screen and (max-width:990px) {
   .misquotegif {
     width: 90%;
@@ -816,26 +837,93 @@ footer .form-control {
   .teamback {
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('#');
   }
+
+  .exobreakdown {
+    height: 85%;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .exobreaktit {
+    color: white;
+    text-align: center;
+    font-size: 170%;
+  }
+  
+  .exobreakdesc {
+    color: white;
+    font-size: 85%;
+  }
 }
+
 
 @media screen and (max-width:850px) {
   .misfoot {
     margin-top: 90%;
   }
+
   .expteam {
     padding-top: 5%;
   }
+
   .shopimg {
     height: 80%;
     width: 100%;
   }
+
+  .exobreakdown {
+    height: 95%;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+  .exobreaktit {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+  }
+  
+  .exobreakdesc {
+    color: white;
+    font-size: 60%;
+  }
 }
+
 @media screen and (max-width:767px) {
   .shopimg {
     height: 95%;
     width: 90%;
   }
+
+  .exobreakdown {
+    height: 90%;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 0%;
+  }
+  
+  .exobreaktit {
+    color: white;
+    text-align: center;
+    font-size: 220%;
+  }
+  
+  .exobreakdesc {
+    color: white;
+    font-size: 100%;
+  }
+
+  .exotit {
+    font-size: 450%;
+  }
+
+  .exotitdesc {
+  font-size: 250%;
+  }
 }
+
 @media screen and (max-width:765px) {
   .mtit {
     font-size: 180%;
@@ -860,6 +948,18 @@ footer .form-control {
   .misfoot {
     margin-top: 250%;
   }
+
+  .buybutton {
+  margin-left: 30%;
+  padding-top: 2%;
+  }
+  .exotit {
+    font-size: 400%;
+  }
+
+  .exotitdesc {
+  font-size: 200%;
+  }
 }
 
 @media screen and (max-width:570px) {
@@ -876,6 +976,14 @@ footer .form-control {
     padding-right: 8%;
     font-size: 70%;
   }
+
+  .exotit {
+    font-size: 370%;
+  }
+
+  .exotitdesc {
+  font-size: 170%;
+  }
 }
 
 @media screen and (max-width:519px) {
@@ -883,26 +991,44 @@ footer .form-control {
     font-size: 75%;
   }
 
-  .ethtit{
+  .ethtit {
     font-size: 125%;
   }
 
   .ethdesc {
     font-size: 100%;
   }
+
   .ethbul {
     font-size: 100%;
   }
+
   .expteam {
     font-size: 125%;
   }
+
   .expdesc {
     font-size: 100%;
   }
+
   .misfoot {
     margin-top: 300%;
   }
+
+}
+
+@media screen and (max-width:480px) {
+  .buybutton {
+    margin-left: 0%;
+    padding-top: 2%;
+    }
+    .exotit {
+      font-size: 320%;
+    }
   
+    .exotitdesc {
+    font-size: 150%;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -923,6 +1049,14 @@ footer .form-control {
   .misfoot {
     margin-top: 400%;
   }
+
+  .exotit {
+    font-size: 300%;
+  }
+
+  .exotitdesc {
+  font-size: 125%;
+  }
 }
 
 @media screen and (max-width:375px) {
@@ -939,7 +1073,15 @@ footer .form-control {
   .landtext {
     font-size: 60%;
   }
+
   .misfoot {
     margin-top: 500%;
+  }
+  .exotit {
+    font-size: 270%;
+  }
+
+  .exotitdesc {
+  font-size: 100%;
   }
 }

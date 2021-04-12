@@ -28,8 +28,8 @@
         <!-- Exoskeleton Jumbotron -->
         <div class="jumbotron jumbotron-fluid productjumbo">
             <div class="container state">
-                <h1 class="display-3">ExoSuit</h1>
-                <h2 class="display-7">Cybergence's Innovative Physique</h2>
+                <h1 class="display-3 exotit">ExoSuit</h1>
+                <h2 class="display-7 exotitdesc">Cybergence's Innovative Physique</h2>
             </div>
         </div>
     </div>
@@ -45,10 +45,10 @@
     <div class="downup"><br><br><br></div>
     <!-- Start of Row & Column -->
     <div class="row exobreak">
-        <div class="col-6">
+        <div class="col-md-6">
             <img class="exobreakdown" src="img/exobreakdown.jpg" alt="ExoSuit Breakdown">
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
             <h1 class="display-5 exobreaktit">In-Depth Specifications</h1>
             <ul class="exobreakdesc">
                 <li>Helmet - Cybergence's Cyber Helmet links in with your other technological devices including laptops,
