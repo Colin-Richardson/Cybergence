@@ -48,10 +48,10 @@
     <!-- End of Shop Jumbotron -->
     <!-- Start of Row & Column -->
     <div class="row">
-        <div class="col-5">
+        <div class="col-md-5">
             <img class="shopimg" src="img/shoparm.jpg" alt="">
         </div>
-        <div class="col-7">
+        <div class="col-md-7">
             <h1 class="shopheader display-6">Augmented Arms</h1>
             <br>
             <p class="shopdesc">As we were developing our ExoSuit, we became fascinated with the prospect of a more
@@ -64,10 +64,10 @@
     </div>
     <br><br><br><br><br>
     <div class="row">
-        <div class="col-5">
+        <div class="col-md-5">
             <img class="shopimg" src="img/shopcontacts.jpg" alt="">
         </div>
-        <div class="col-7">
+        <div class="col-md-7">
             <h1 class="shopheader display-6">Cyber Contacts</h1>
             <br>
             <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
@@ -81,10 +81,10 @@
     </div>
     <br><br><br><br><br>
     <div class="row">
-        <div class="col-5">
+        <div class="col-md-5">
             <img class="shopimg" src="img/shopexo.jpg" alt="">
         </div>
-        <div class="col-7">
+        <div class="col-md-7">
             <h1 class="shopheader display-6">ExoSuit</h1>
             <br><br>
             <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
