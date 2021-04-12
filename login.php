@@ -37,6 +37,13 @@
     </div>
   </nav>
   <!-- End Navigation -->
+<?php
+	require "includes/header.php";
+	if (isset($_GET['rdr']))
+	{
+		$_SESSION['rdr']=$_GET['rdr'];
+	}
+?>
   <div class="signup__container">
     <div class="container__child signup__thumbnail">
       <div class="thumbnail__content text-center"><br><br><br><br>

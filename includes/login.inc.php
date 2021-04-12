@@ -34,7 +34,13 @@
 						session_start();
 						$_SESSION['userId'] = $row['id'];
 						$_SESSION['userUid'] = $row['user'];
-						header("Location: ../login.php?login=success");
+						if(isset($_SESSION['rdr']))
+						{
+							header("Location: ../".$_SESSION['rdr']."?login=success");
+						} else
+						{
+							header("Location: ../login.php?login=success");
+						}
 						exit();
 
 					}
