@@ -1,8 +1,8 @@
-<footer class="footer">  
+<footer class="misfoot footer">  
     <div class="container">
         <div class="row">
             <div class="col-5"><br>
-                <h5><i class="fa fa-road"></i> Cybergence</h5>
+                <h5 class="footertit"><i class="fa fa-road"></i> Cybergence</h5>
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
@@ -24,7 +24,7 @@
                 <br>
             </div>
             <div class="col-7"><br>
-                <h5 class="text-md-right">Newsletter</h5>
+                <h5 class="text-md-right footertit">Newsletter</h5>
                 <hr>
                 <form>
                     <fieldset class="form-group">
