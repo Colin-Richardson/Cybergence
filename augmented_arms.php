@@ -46,10 +46,10 @@
     <div class="downup"><br><br><br></div></div>
     <!-- Start of Row & Column -->
     <div class="row armbreak">
-        <div class="col-6">
+        <div class="col-md-6">
             <img class="indepth-arm" src="img/in-deptharm.png" alt="Arm Breakdown">
         </div>
-        <div class="col-6 eyebreak"><br><br><br><br>
+        <div class="col-md-6 eyebreak">
             <h1 class="display-5 exobreaktit">In-Depth Specifications</h1><br>
             <h2 class="state eyebreakh2">The biceps, forearms, and triceps are manufactured with Valerian steele to provide superior durability.</h2>
             <ul class="armbreakdesc">

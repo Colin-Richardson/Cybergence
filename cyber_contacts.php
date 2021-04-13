@@ -46,10 +46,10 @@
     <div class="downup"><br><br><br></div>
     <!-- Start of Row & Column -->
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
             <img class="indepth-eye" src="img/in-deptheye.jpg" alt="Eye Breakdown">
         </div>
-        <div class="col-6 eyebreak"><br><br><br><br>
+        <div class="col-md-6 eyebreak"><br><br><br><br>
             <h1 class="display-5 exobreaktit">In-Depth Specifications</h1><br>
             <h2 class="state eyebreakh2">The Cyber Retina Display (CRD) is the center of all computing within the
                 contacts. It creates things such as:</h2>
@@ -68,6 +68,7 @@
         </div>
     </div>
     <!-- End of Row & Column -->
+<br>
     <!-- Buy -->
     <div class="jumbotron">
     <?php 
