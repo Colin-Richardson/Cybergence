@@ -800,6 +800,13 @@ footer .form-control {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8, 211, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+@media screen and (max-width:1235px) {
+  .signuph1,
+  .signuph2 {
+    transform: translateX(10%);
+    }
+  }
+
 @media screen and (max-width:1082px) {
   .exobreakdown {
     height: 90%;
@@ -817,6 +824,13 @@ footer .form-control {
   .exobreakdesc {
     color: white;
     font-size: 95%;
+  }
+}
+
+@media screen and (max-width:1050px) {
+.signuph1,
+.signuph2 {
+  transform: translateX(0%);
   }
 }
 
@@ -1051,6 +1065,10 @@ footer .form-control {
   .armbreakdesc {
     font-size: 100%;
   }
+  .signuph1,
+  .signuph2 {
+  transform: translateX(-5%);
+  }
 }
 
 @media screen and (max-width:395px) {
@@ -1083,6 +1101,15 @@ footer .form-control {
   .eyebreakh2 {
     font-size: 100%;
   }
+  .signuph1,
+  .signuph2 {
+  transform: translateX(-10%);
+  }
+  .btn--form {
+    padding: .3rem 2rem;
+    font-size: .8rem;
+    transform: translateX(-10%);
+  }
 }
 
 @media screen and (max-width:320px) {
@@ -1100,5 +1127,14 @@ footer .form-control {
 
   .exotitdesc {
     font-size: 100%;
+  }
+  .signuph1,
+  .signuph2 {
+  transform: translateX(-20%);
+  }
+  .btn--form {
+    padding: .3rem 2rem;
+    font-size: .8rem;
+    transform: translateX(-20%);
   }
 }
