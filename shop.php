@@ -70,11 +70,9 @@
         <div class="col-md-7">
             <h1 class="shopheader display-6">Cyber Contacts</h1>
             <br>
-            <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
-                quibusdam porro harum
-                natus in temporibus mollitia aut eveniet, expedita accusantium molestias dolores illo eius ad fugiat
-                quos.
-                Cupiditate, nemo!</p>
+            <p class="shopdesc">Our Cyber Contacts came about through developing the Exo Helmet of our ExoSuit. These
+                contacts feature a Cyber Retina Display (CRD) that allows for many great features including phone
+                synchronization.</p>
             <br><br>
             <a class="shopbutton" href="cyber_contacts.php">Learn More</a>
         </div>
@@ -87,11 +85,9 @@
         <div class="col-md-7">
             <h1 class="shopheader display-6">ExoSuit</h1>
             <br><br>
-            <p class="shopdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit
-                quibusdam porro harum
-                natus in temporibus mollitia aut eveniet, expedita accusantium molestias dolores illo eius ad fugiat
-                quos.
-                Cupiditate, nemo!</p>
+            <p class="shopdesc">Cybergence's first and most revered product: the ExoSuit. It has technology from our
+                Augmented Arms and Cyber Contacts while also detailing additions in legs, feet, and chest. This is the
+                ultimate cybernetic innovation of augmentation.</p>
             <br>
             <a class="shopbutton" href="exosuit.php">Learn More</a>
         </div>
