@@ -31,6 +31,7 @@
                     <fieldset class="form-group">
                         <input type="email" class="form-control" name="mail" id="exampleInputEmail1" placeholder="Enter email">
                     </fieldset>
+                    <br>
                     <fieldset class="form-group text-xs-right">
                     <button type="submit" name="newsletter-submit" class="button2">Send</button>
                     </fieldset>

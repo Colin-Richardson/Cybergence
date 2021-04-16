@@ -332,6 +332,7 @@ footer .form-control {
   color: #FFFFFF;
   text-align: center;
   transition: all 0.3s;
+  background-color: transparent;
 }
 
 .button2:hover {
