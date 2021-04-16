@@ -34,9 +34,9 @@
 						session_start();
 						$_SESSION['userId'] = $row['id'];
 						$_SESSION['userUid'] = $row['user'];
-						if(isset($_SESSION['rdr']))
+						if(isset($_POST['rdr']))
 						{
-							header("Location: ../".$_SESSION['rdr']."?login=success");
+							header("Location: ../".$_POST['rdr']."?login=success");
 						} else
 						{
 							header("Location: ../login.php?login=success");

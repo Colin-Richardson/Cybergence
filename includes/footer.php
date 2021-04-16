@@ -26,15 +26,13 @@
             <div class="col-7"><br>
                 <h5 class="text-md-right footertit">Newsletter</h5>
                 <hr>
-                <form>
+                <form action="includes/newsletter.inc.php" method="post">
+		<input type="hidden" name="redirect" value="<?php echo (isset($_GET['rdr'])) ? $_GET['rdr'] : '';?>" />
                     <fieldset class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <input type="email" class="form-control" name="mail" id="exampleInputEmail1" placeholder="Enter email">
                     </fieldset>
-                    <fieldset class="form-group">
-                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
-                    </fieldset><br>
                     <fieldset class="form-group text-xs-right">
-                    <a href="#" class="button2">Send</a>
+                    <button type="submit" name="newsletter-submit" class="button2">Send</button>
                     </fieldset>
                 </form><br>
             </div>
