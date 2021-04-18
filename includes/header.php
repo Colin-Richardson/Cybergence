@@ -1,6 +1,7 @@
 <?php
 $url = str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']);
 $titles = [ 
+	"" => "Cybergence",
 	"index.php" => "Cybergence",
 	"mission.php" => "Mission",
 	"shop.php" => "Shop",
