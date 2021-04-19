@@ -93,7 +93,7 @@ $titles = [
 	<!-- Title -->
 	<title><?php echo $titles[$url]; ?></title>
 	<?php
-		if($url == "mission.php")
+		if($url == "/mission.php")
 		{
 			echo '<!-- Jquery -->
 			      <script src="js/jquery-3.5.1.min.js"></script>';
