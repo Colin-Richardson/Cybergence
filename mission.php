@@ -135,7 +135,7 @@
     </div>
     <!-- End of Team -->
 <?php
-	require "includes/footer.php";
+	require "includes/misfooter.php";
 ?>
     <script src="js/scripts.js"></script>
 </body>
