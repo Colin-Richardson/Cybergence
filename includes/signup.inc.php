@@ -35,7 +35,6 @@
 			
 		} else 
 		{
-			//extremely ugly code, but using a function to make it nice breaks everything and causes immesurable pain
 			$userTaken = false;
 			$emailTaken = false;
 			$sql = "SELECT username FROM Users WHERE username=?";
@@ -108,26 +107,3 @@
 		header("location: ../signup.php");
 		exit();
 	}
-function ayoWTF($field, $input)
-{
-	$sql = "SELECT ".$field." FROM Users WHERE ".$field."=?";
-	//$sql = "SELECT username FROM Users WHERE username=?";
-	$stmt = mysqli_stmt_init($conn);	
-	if (!mysqli_stmt_prepare($stmt, $sql))
-	{
-		header("location: ../signup.php?error=sqlerror".$sql);	
-		exit();
-	} else
-	{
-		{
-			mysqli_stmt_bind_param($stmt, "s", $input);
-			mysqli_stmt_execute($stmt);
-			mysqli_stmt_store_result($stmt);
-			if ( mysqli_stmt_num_rows($stmt) > 0)
-			{
-				return true;
-			}
-		}
-	}
-	return false;
-}
