@@ -1,5 +1,5 @@
 <?php
-$url = str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']);
+$url = explode('?', str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']))[0];
 $titles = [ 
 	"" => "Cybergence",
 	"index.php" => "Cybergence",
@@ -42,6 +42,7 @@ $titles = [
 
 
 <?php
+	session_start();
 	if ($url == "index.php" || $url == "")
 	{
 		echo "<body class='index'>";
@@ -67,7 +68,6 @@ $titles = [
 	}
 	
 	include 'return.inc.php';
-	session_start();
 	if(isset($_GET["error"]))
 	{
 		message("error",$_GET["error"]);		

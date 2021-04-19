@@ -43,7 +43,13 @@
     <!-- Buy -->
     <div class="jumbotron armbuy"><br><br><br>
     <?php 
-        include "includes/loginmodal.php"
+	if (isset($_SESSION["userId"]))
+	{
+        	include "includes/loginmodal.php";
+	} else
+	{
+		include "includes/buymodal.php";
+	}
     ?>
     </div>
     <?php 

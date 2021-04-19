@@ -34,12 +34,12 @@
 						session_start();
 						$_SESSION['userId'] = $row['id'];
 						$_SESSION['userUid'] = $row['user'];
-						if(isset($_POST['rdr']))
+						if(isset($_POST['redirect']))
 						{
-							header("Location: ../".$_POST['rdr']."?login=success");
+							header("Location: ../".$_POST['redirect']."?login=success");
 						} else
 						{
-							header("Location: ../login.php?login=success");
+							header("Location: ../login.php?login=success"']);
 						}
 						exit();
 
