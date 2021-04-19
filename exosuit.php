@@ -47,8 +47,15 @@
     <!-- Buy -->
     <div class="jumbotron">
     <?php 
-        include "includes/loginmodal.php"
+        if (isset($_SESSION["userId"]))
+        {
+                include "includes/buymodal.php";
+        } else
+        {
+                include "includes/loginmodal.php";
+        }
     ?>
+
     </div>
     <?php 
         include "includes/footer.php"

@@ -45,10 +45,10 @@
     <?php 
 	if (isset($_SESSION["userId"]))
 	{
-        	include "includes/loginmodal.php";
+        	include "includes/buymodal.php";
 	} else
 	{
-		include "includes/buymodal.php";
+		include "includes/loginmodal.php";
 	}
     ?>
     </div>
