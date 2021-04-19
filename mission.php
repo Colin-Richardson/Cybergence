@@ -81,7 +81,7 @@
                 <div class="team-item">
                     <div class="team-card">
                         <div class="team-card-image">
-                            <img src="img/FILLERIMAGE.gif" alt="">
+                            <img src="img/colin.jpg" alt="Colin">
                         </div>
                         <div class="team-card-title">
                             <h2>Colin Richardson</h2>
@@ -99,7 +99,7 @@
                 <div class="team-item">
                     <div class="team-card">
                         <div class="team-card-image">
-                            <img src="img/FILLERIMAGE.gif" alt="">
+                            <img src="img/matt.png" alt="Matt">
                         </div>
                         <div class="team-card-title">
                             <h2>Matthew Thornton</h2>
@@ -116,7 +116,7 @@
                 <div class="team-item">
                     <div class="team-card">
                         <div class="team-card-image">
-                            <img src="img/FILLERIMAGE.gif" alt="">
+                            <img src="img/vincent.png" alt="Vincent">
                         </div>
                         <div class="team-card-title">
                             <h2>Vincent Zhu</h2>
