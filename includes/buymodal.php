@@ -13,7 +13,25 @@
       <h2 class="buymodaltit">Cybergence</h2>
     </div>
     <div class="modal-body">
-      <p>Your order has been placed thank you!</p>
+      <p>Please link your Bitcoin:</p>
+      <br><br><br><br><br><br><br>
+      <div class="login-box">
+        <form action="" method="post">
+        <div class="form-group">
+          <label class="bitsignuplabel">Bitcoin Link</label>
+          <input class="form-control" type="text" name="" id="" placeholder="HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" required />
+		    </div>
+          <button class="btcbuybutton" type="submit">
+          <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Buy
+            </a>
+            </button>
+        </form>
+      </div>
     </div>
 
   </div>

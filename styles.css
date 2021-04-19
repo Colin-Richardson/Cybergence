@@ -710,6 +710,12 @@ footer .form-control {
   color: #000066;
 }
 
+.bitsignuplabel {
+  font-size: .85rem;
+  text-transform: uppercase;
+  color: #22c6db;
+}
+
 .form-control {
   background-color: transparent;
   border-top: 0;
@@ -794,6 +800,11 @@ footer .form-control {
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(8, 211, 247)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.btcbuybutton {
+  background-color: transparent;
+  border: transparent;
 }
 
 @media screen and (max-width:1235px) {
@@ -1035,6 +1046,13 @@ footer .form-control {
     margin-top: 40px;
     letter-spacing: 4px;
     margin-right: 35%;
+  }
+  .bitsignuplabel {
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: #22c6db;
+    padding-right: 50%;
+    padding-top: 10%;
   }
 }
 
