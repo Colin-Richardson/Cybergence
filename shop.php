@@ -1,10 +1,6 @@
 <?php 
 	require "includes/header.php";
 ?>
-<body>
-<?php
-	require "includes/shopnav.php"
-?>
     <!-- Shop Jumbotron -->
     <div class="jumbotron jumbotron-fluid shopback">
         <div class="container state"><br><br><br>

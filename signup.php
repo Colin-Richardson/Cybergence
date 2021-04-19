@@ -1,10 +1,6 @@
 <?php
         require "includes/header.php";
 ?>
-<body>
-<?php
-        require "includes/shopnav.php";
-?>
   <div class="signup__container">
     <div class="container__child signup__thumbnail">
       <div class="thumbnail__content text-center"><br><br><br><br>

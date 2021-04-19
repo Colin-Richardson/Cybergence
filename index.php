@@ -1,12 +1,6 @@
 <?php
 	require "includes/header.php";
 ?>
-<body class="index">
-  <!-- Navigation -->
-<?php
-	require "includes/navbar.php";
-?>
-  <!-- End Navigation -->
 
   <!-- Landing Page Content -->
   <div class="overlay">
