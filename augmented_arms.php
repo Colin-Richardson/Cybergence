@@ -49,7 +49,7 @@
     <!-- Buy -->
     <div class="jumbotron armbuy"><br><br><br>
     <?php 
-        include "includes/loginmodal.php"
+        include "includes/logmodal.php"
     ?>
     </div>
     <?php 
