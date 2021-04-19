@@ -2,87 +2,78 @@
 $url = explode('?', str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']))[0];
 $titles = [ 
 	"" => "Cybergence",
-	"/index.php" => "Cybergence",
-	"/mission.php" => "Mission",
-	"/shop.php" => "Shop",
-	"/augmented_arms.php" => "Augmented Arms",
-	"/cyber_contacts.php" => "Cyber Contacts",
-	"/exosuit.php" => "Exosuit",
-	"/signup.php" => "Sign up",
-	"/login.php" => "Login",
+	"index.php" => "Cybergence",
+	"mission.php" => "Mission",
+	"shop.php" => "Shop",
+	"augmented_arms.php" => "Augmented Arms",
+	"cyber_contacts.php" => "Cyber Contacts",
+	"exosuit.php" => "Exosuit",
+	"signup.php" => "Sign up",
+	"login.php" => "Login",
 ];
+function meta($input)
+{
+	switch ($input){
+		case "index.php":
+			echo "		  	
+				<meta name='keywords' content='Technology, Humans, Cybergence, Augmentation, Cyber'>
+				<meta name='description' content='Landing Page For Cybergence'>";
+		break;
+
+		case "mission.php":
+			echo "
+				<meta name='keywords' content='Technology, Humans, Cybergence, Augmentation, Cyber, Mission, About'>
+				<meta name='description' content='Mission Statement, Values, Ethics, and Team'>";
+		break;
+
+		case "shop.php":
+			echo "
+				<meta name='keywords' content='Augmented Arms, ExoSuit, Cybergence, Cyber Contacts, Cyber, Augmentation, Shop, Products'>
+				<meta name='description' content='Our Products'>";
+		break;
+
+		case "augmented_arms.php":
+			echo "
+				<meta name='keywords' content='Augmented Arms, Humans, Cybergence, Augmentation, Arms, Product'>
+				<meta name='description' content='Our Augmented Arms Collection'>";
+		break;
+
+		case "cyber_contacts.php":
+			echo "
+				<meta name='keywords' content='Cyber Contacts, Humans, Cybergence, Augmentation, Eyes, Product'>
+				<meta name='description' content='Our Cyber Contacts'>";
+		break;
+
+		case "exosuit.php":
+			echo "
+				<meta name='keywords' content='ExoSuit, ExoSkeleton, Exo Skeleton, Humans, Cybergence, Augmentation, Body, Product'>
+				<meta name='description' content='Our ExoSuit'>";
+		break;
+
+		case "signup.php":
+			echo "
+				<meta name='keywords' content='Cybergence, Sign Up, Signup'>
+				<meta name='description' content='Sign Up with Cybergence'>";
+		break;
+
+		case "login.php":
+			echo "
+				<meta name='keywords' content='Cybergence, Log In, Login'>
+				<meta name='description' content='Login with Cybergence'>
+				";
+		break;
+	}
+}
 ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<?php
-  switch ($url){
-  	case "/index.php":
-		echo "<meta charset='utf-8'>
-		  	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-		  	<meta name='keywords' content='Technology, Humans, Cybergence, Augmentation, Cyber'>
-		  	<meta name='description' content='Landing Page For Cybergence'>
-		  	<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-    break;
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
-  	case "/mission.php":
-		echo "<meta charset='utf-8'>
-		  	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-		  	<meta name='keywords' content='Technology, Humans, Cybergence, Augmentation, Cyber, Mission, About'>
-		  	<meta name='description' content='Mission Statement, Values, Ethics, and Team'>
-		  	<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/shop.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='Augmented Arms, ExoSuit, Cybergence, Cyber Contacts, Cyber, Augmentation, Shop, Products'>
-			<meta name='description' content='Our Products'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/augmented_arms.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='Augmented Arms, Humans, Cybergence, Augmentation, Arms, Product'>
-			<meta name='description' content='Our Augmented Arms Collection'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/cyber_contacts.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='Cyber Contacts, Humans, Cybergence, Augmentation, Eyes, Product'>
-			<meta name='description' content='Our Cyber Contacts'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/exosuit.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='ExoSuit, ExoSkeleton, Exo Skeleton, Humans, Cybergence, Augmentation, Body, Product'>
-			<meta name='description' content='Our ExoSuit'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/signup.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='Cybergence, Sign Up, Signup'>
-			<meta name='description' content='Sign Up with Cybergence'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-
-	case "/login.php":
-		echo "<meta charset='utf-8'>
-			<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-			<meta name='keywords' content='Cybergence, Log In, Login'>
-			<meta name='description' content='Login with Cybergence'>
-			<meta name='author' content='Colin Richardson, Matthew Thornton'>";
-	break;
-}
-?>
+	<?php meta($url)?>
+<meta name='author' content='Colin Richardson, Matthew Thornton'>
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -105,24 +96,24 @@ $titles = [
 
 <?php
 	session_start();
-	if ($url == "/index.php" || $url == "")
+	if ($url == "index.php" || $url == "")
 	{
 		echo "<body class='index'>";
 		require "includes/navbar.php";
-	} elseif ($url == "/mission.php")
+	} elseif ($url == "mission.php")
 	{
 		echo "<body>";
 		require "includes/navbar.php";
 	} else
 	{
 		echo "<body>";
-		if ($url == "/cyber_contacts.php")
+		if ($url == "cyber_contacts.php")
 		{
 			echo '<div class="productback eyeback">';
-		} elseif ($url == "/augmented_arms.php")
+		} elseif ($url == "augmented_arms.php")
 		{
 			echo '<div class="productback armback">';
-		} elseif ($url == "/exosuit.php")
+		} elseif ($url == "exosuit.php")
 		{
 			echo '<div class="productback exoback">';
 		}
