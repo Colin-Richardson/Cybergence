@@ -30,11 +30,42 @@ $titles = [
       <link rel="icon" href="img/favicon.png" type="image/x-icon">
       <!-- Title -->
       <title><?php echo $titles[$url]; ?></title>
+	<?php
+		if($url == "mission.php")
+		{
+			echo '<!-- Jquery -->
+			      <script src="js/jquery-3.5.1.min.js"></script>';
+		}
+	?>
   </head>
   
 
 
 <?php
+	if ($url == "index.php" || $url == "")
+	{
+		echo "<body class='index'>";
+		require "includes/navbar.php";
+	} elseif ($url == "mission.php")
+	{
+		echo "<body>";
+		require "includes/navbar.php";
+	} else
+	{
+		echo "<body>";
+		if ($url == "cyber_contacts.php")
+		{
+			echo '<div class="productback eyeback">';
+		} elseif ($url == "augmented_arms.php")
+		{
+			echo '<div class="productback armback">';
+		} elseif ($url == "exosuit.php")
+		{
+			echo '<div class="productback exoback">';
+		}
+		require "includes/shopnav.php";
+	}
+	
 	include 'return.inc.php';
 	session_start();
 	if(isset($_GET["error"]))

@@ -1,13 +1,6 @@
 <?php
 	require "includes/header.php";
 ?>
-<body>
-    <!-- Navigation -->
-    <div class="productback eyeback">
-        <?php
-    include "includes/shopnav.php";
-    ?>
-        <!-- End Navigation -->
 
         <!-- Contacts Jumbotron -->
         <div class="jumbotron jumbotron-fluid productjumbo">
