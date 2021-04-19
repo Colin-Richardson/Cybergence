@@ -39,7 +39,7 @@
 							header("Location: ../".$_POST['redirect']."?login=success");
 						} else
 						{
-							header("Location: ../login.php?login=success"']);
+							header("Location: ../login.php?login=success'");
 						}
 						exit();
 
