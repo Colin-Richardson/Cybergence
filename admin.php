@@ -18,19 +18,11 @@
         <h1 class="state display-3 adminusv">Augmented Arms</h1>
         <br>
         <img class="adminimg" src="img/fillersales.png" alt="Sales Data">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-12">
+        <br><br><br>
         <h1 class="state display-3 adminsd">Cyber Contacts</h1>
         <br>
         <img class="adminimg" src="img/fillersales.png" alt="Sales Data">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-12">
+        <br><br><br>
         <h1 class="state display-3 adminint">ExoSuits</h1>
         <br>
         <img class="adminimg" src="img/fillersales.png" alt="Interest Graph">
