@@ -10,7 +10,7 @@ $titles = [
 	"exosuit.php" => "Exosuit",
 	"signup.php" => "Sign up",
 	"login.php" => "Login",
-	"/admin.php" => "Admin",
+	"admin.php" => "Admin",
 ];
 function meta($input)
 {

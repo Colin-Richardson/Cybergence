@@ -1,4 +1,5 @@
 <?php
+	include 'includes/data.inc.php';
 	require "includes/header.php";
 ?>
 <br><br>
