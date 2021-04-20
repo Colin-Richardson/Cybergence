@@ -4,8 +4,8 @@
   <div class="signup__container">
     <div class="container__child signup__thumbnail">
       <div class="thumbnail__content text-center"><br><br><br><br>
-        <h1 class="display-5 signuph1">Cybergence</h1><br>
-        <h2 class="display-7 signuph2"><span class="transparent">ss</span>The forefront of advancement</h2><br><br><br><br><br>
+        <h1 class="display-5 signuph1"> <span class="transparent">sss</span> Administration</h1><br>
+        <h2 class="display-7 signuph2"><span class="transparent">ssss</span>Login for admin</h2><br><br><br><br><br>
       </div>
       <div class="signup__overlay"></div>
     </div>
@@ -28,11 +28,6 @@
               <input class="btn btn--form" type="submit" name="login-submit" value="Log in" />
 			</li>
 			<br>
-            <li>
-			  <a class="signup__link signupa" href="signup.php">Sign up</a>
-			  <span class="transparent">s</span>
-			  <a class="signup__link signupa" href="adminlogin.php">Admin</a>
-			</li>
           </ul>
         </div>
       </form>

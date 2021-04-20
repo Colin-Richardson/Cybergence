@@ -11,6 +11,7 @@ $titles = [
 	"signup.php" => "Sign up",
 	"login.php" => "Login",
 	"admin.php" => "Admin",
+	"adminlogin.php" => "Admin Login",
 ];
 function meta($input)
 {
@@ -64,10 +65,17 @@ function meta($input)
 				";
 		break;
 		
-		case "/admin.php":
+		case "admin.php":
 			echo "
 				<meta name='keywords' content='Cybergence, Admin, Sales'>
 				<meta name='description' content='Admin page with sales data'>
+				";
+		break;
+
+		case "adminlogin.php":
+			echo "
+				<meta name='keywords' content='Cybergence, Admin, Log In, '>
+				<meta name='description' content='Admin login'>
 				";
 		break;
 	}
