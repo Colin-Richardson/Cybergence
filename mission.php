@@ -87,7 +87,7 @@
                             <h2>Colin Richardson</h2>
                         </div>
                         <div class="team-card-description">
-                            <p>Colin Richardson is our interior cyber-kinetic model designer. He graduated from NYU and
+                            <p>Colin Richardson is our intern. He graduated from NYU and
                                 currently resides in New York City
                                 with his wife and 3 boys.
                                 Colin's favorite pastime is playing soccer with his children.
