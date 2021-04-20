@@ -808,6 +808,19 @@ footer .form-control {
   border: transparent;
 }
 
+.adminh2 {
+  font-size: 150%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.adminimg {
+  height: 80%;
+  width: 55%;
+  border: #000066 solid 6px;
+  margin-left: 22%;
+}
+
 @media screen and (max-width:1235px) {
   .signuph1,
   .signuph2 {

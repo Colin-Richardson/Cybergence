@@ -10,6 +10,7 @@ $titles = [
 	"exosuit.php" => "Exosuit",
 	"signup.php" => "Sign up",
 	"login.php" => "Login",
+	"/admin.php" => "Admin",
 ];
 function meta($input)
 {
@@ -60,6 +61,13 @@ function meta($input)
 			echo "
 				<meta name='keywords' content='Cybergence, Log In, Login'>
 				<meta name='description' content='Login with Cybergence'>
+				";
+		break;
+		
+		case "/admin.php":
+			echo "
+				<meta name='keywords' content='Cybergence, Admin, Sales'>
+				<meta name='description' content='Admin page with sales data'>
 				";
 		break;
 	}
