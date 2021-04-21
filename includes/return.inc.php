@@ -64,7 +64,7 @@ function message($key, $val)
 	
 		echo '
 			<div id="'.$type.'">
-				<p>'.$msg.'</p>
+				<p style="color:#03e9f4;text-align:center;font-size:125%">'.$msg.'</p>
 			</div>
 		';
 }
