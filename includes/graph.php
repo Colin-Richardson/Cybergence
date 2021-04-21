@@ -13,7 +13,6 @@
 <canvas id="sales" width="525" height="350">
 Your browser does not support the HTML canvas tag.
 </canvas>
-	<script type="text/javascript" src="sales.json"></script>
 	<script>
 	getData();
 	function main(data)
@@ -41,9 +40,7 @@ Your browser does not support the HTML canvas tag.
 		for (var i = 0, j = splitData['Exosuit'].length; i < j; i++) {
 		   occurrences[splitData['Exosuit'][i]] = (occurrences[splitData['Exosuit'][i]] || 0) + 1;
 		}
-		console.log(occurrences);
 		let values = Object.values(occurrences);
-		console.log(values);
 		graph(values);
 	}
 	function getData()// Async function so its the function that starts the chain to avoid weird desync
@@ -65,7 +62,6 @@ Your browser does not support the HTML canvas tag.
 		for (i=0; i<=arr.length;i++){
 		    if (arr[i]>largest) {
 			largest=arr[i];
-			console.log(largest);
 		    }
 		}
 		return largest;
@@ -79,7 +75,6 @@ Your browser does not support the HTML canvas tag.
 		const rowSize = [25,25];
 		const chartSize = [500,325];
 		const max = getMax(input);
-		console.log(max);
 		ctx.lineWidth = 0.25;
 		let i = 0;
 		while (i <= chartSize[1])

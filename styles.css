@@ -171,6 +171,11 @@ body {
 .team-card-description>p {
   padding: 4%;
 }
+.graph {
+	background: white;
+	margin: auto;
+	display: block;
+}
 
 @media only screen and (max-width: 768px) {
   .team-item {

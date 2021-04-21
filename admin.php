@@ -18,15 +18,21 @@
     <div class="col-12">
         <h1 class="state display-3 adminusv">Augmented Arms</h1>
         <br>
-        <img class="adminimg" src="img/fillersales.png" alt="Sales Data">
+	<canvas id="armSales" width="525" height="350" class="graph" >
+	Your browser does not support the HTML canvas tag.
+	</canvas>
         <br><br><br>
         <h1 class="state display-3 adminsd">Cyber Contacts</h1>
         <br>
-        <img class="adminimg" src="img/fillersales.png" alt="Sales Data">
+	<canvas id="contactSales" width="525" height="350" class="graph" >
+	Your browser does not support the HTML canvas tag.
+	</canvas>
         <br><br><br>
         <h1 class="state display-3 adminint">ExoSuits</h1>
         <br>
-        <img class="adminimg" src="img/fillersales.png" alt="Interest Graph">
+	<canvas id="exosuitSales" width="525" height="350" class="graph" >
+	Your browser does not support the HTML canvas tag.
+	</canvas>
     </div>
 </div>
 <!-- End of Row & Column -->
@@ -34,6 +40,7 @@
 <?php 
         include "includes/footer.php"
     ?>
+<script src="js/graph.js"></script>
 </body>
 
 </html>
