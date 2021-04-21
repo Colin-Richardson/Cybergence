@@ -10,7 +10,7 @@
       <div class="signup__overlay"></div>
     </div>
     <div class="container__child signup__form">
-      <form action="includes/login.inc.php" method="post">
+      <form action="includes/adminlogin.inc.php" method="post">
 	<input type="hidden" name="redirect" value="<?php echo (isset($_GET['rdr'])) ? $_GET['rdr'] : '';?>" />
         <div class="form-group">
           <label class="signuplabel" for="username">Username</label>
