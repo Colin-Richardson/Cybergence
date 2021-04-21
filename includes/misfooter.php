@@ -16,8 +16,8 @@
                         <ul class="list-unstyled">
                             <li><a href="cyber_contacts.php">Cyber Contacts</a></li>
                             <li><a href="exosuit.php">ExoSuit</a></li>
-                            <li><a href="login.php">Sign Up</a></li>
-                            <li><a href="signup.php">Login</a></li>
+                            <li><a href="signup.php">Sign Up</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                     </div>
                 </div>
