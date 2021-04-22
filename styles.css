@@ -846,6 +846,13 @@ footer .form-control {
 }
 
 /* Media queries */
+@media screen and (max-width:2560px) {
+  .shpnav {
+    position: absolute;
+    right: 11%;
+  }
+  }
+
 @media screen and (max-width:1235px) {
   .signuph1,
   .signuph2 {
@@ -882,6 +889,14 @@ footer .form-control {
 @media screen and (max-width:991px) {
 .augarm {
   margin-right: 175px;
+  }
+  .misnav {
+  position: absolute;
+  right: 1%;
+  top: 30%;
+  }
+  .shpnav {
+    top: 30%;
   }
 }
 @media screen and (max-width:990px) {
