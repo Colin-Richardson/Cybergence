@@ -1,12 +1,13 @@
 <?php
+	
+
+	include 'includes/data.inc.php';
+	require "includes/header.php";
 	if(!isset($_SESSION['admin']))
 	{
 		header("Location: adminlogin.php");
 		exit();
 	}
-
-	include 'includes/data.inc.php';
-	require "includes/header.php";
 ?>
 <br><br>
 <!-- Admin Jumbotron -->
