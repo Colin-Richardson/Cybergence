@@ -10,7 +10,11 @@
 		<?php 
 		if (isset($_SESSION['userId']))
 		{
-                   echo '<a class="nav-item nav-link lginnav" href="includes/logout.inc.php">Logout</a>'; 
+			if (isset($_SESSION['admin']))
+			{
+                   		echo '<a class="nav-item nav-link sunav" href="admin.php">admin</a>'; 
+			}
+                   		echo '<a class="nav-item nav-link lginnav" href="includes/logout.inc.php">Logout</a>'; 
 
 		} else
 		{	

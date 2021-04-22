@@ -7,7 +7,7 @@
 		$password = $_POST['pwd'];
 		if (empty($mailuid) || empty($password) )
 		{
-			header("Location: ../login.php?error=emptyfields");
+			header("Location: ../adminlogin.php?error=emptyfields");
 			exit();
 		} else 
 		{
@@ -15,7 +15,7 @@
 			$stmt = mysqli_stmt_init($conn);
 			if (!mysqli_stmt_prepare($stmt, $sql))
 			{		
-				header("Location: ../login.php?error=sqlerror");
+				header("Location: ../adminlogin.php?error=sqlerror");
 				exit();
 			} else
 			{
@@ -27,26 +27,27 @@
 					$pwdCheck = password_verify($password,$row['password']);
 					if ($pwdCheck == false)
 					{	
-						header("Location: ../login.php?error=wrongpwd");
+						header("Location: ../adminlogin.php?error=wrongpwd");
 						exit();
 					} elseif ($pwdCheck == true) 
 					{
 						session_start();
 						$_SESSION['userId'] = $row['id'];
 						$_SESSION['userUid'] = $row['user'];
+						$_SESSION['admin'] = true;
 						if(isset($_POST['redirect']))
 						{
 							header("Location: ../".$_POST['redirect']."?login=success");
 						} else
 						{
-							header("Location: ../login.php?login=success'");
+							header("Location: ../adminlogin.php?login=success'");
 						}
 						exit();
 
 					}
 				} else 
 				{
-					header("Location: ../login.php?error=nouser");
+					header("Location: ../adminlogin.php?error=nouser");
 					exit();
 					
 				}
@@ -55,7 +56,7 @@
 
 	} else 
 	{
-		header("Location: ../login.php");
+		header("Location: ../adminlogin.php");
 		exit();
 	}
 

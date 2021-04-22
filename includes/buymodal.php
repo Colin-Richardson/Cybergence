@@ -36,7 +36,7 @@
         </form></div>
       </div>
 	<div id="paymentStepTwo" style="display:none;overflow-wrap: break-word;">
-		<img src="http://datadev.devcatalyst.com/~mahs_mthornton/img/paymentQR.png">
+		<img src="https://raw.githubusercontent.com/Colin-Richardson/Cybergence/main/img/paymentQR.png"> <!-- using github image,because server returns error -->
 		<small style="color:#03e9f4;">bc1qqacey0cz65wumy0xtyzzm80dd8f25h2tpsm8h6</small></br>
 		<p  id="paymentMessage"></p>
 	</div>
@@ -75,6 +75,9 @@ window.onclick = function(event) {
 <script>
 //payment info stuff
 main();
+var price;
+var usdPrice;
+getPrice();
 function main()
 {
 	var xhttp = new XMLHttpRequest();
@@ -92,6 +95,22 @@ function main()
 	xhttp.open("POST", "includes/checkPaymentInfo.inc.php", true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhttp.send("user=<?php echo $_SESSION['userId']?>");
+}
+function getPrice()
+{
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() 
+	{
+		if (this.readyState == 4 && this.status == 200) 
+		{
+			let data = this.responseText;
+			usdPrice = data;
+			price = data/<?php require 'includes/btc.inc.php';echo btcprice();?>;
+		}
+	};
+	xhttp.open("POST", "includes/getProductPrice.inc.php ", false); //running this synchronously isn't reccomended, but it's the best solution
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send("product=<?php echo explode('?', str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']))[0] ?>");
 }
 function submitInfo()
 {
@@ -122,8 +141,7 @@ function paymentStepTwo(address)
 {
 	document.getElementById("paymentStepOne").style.display = "none";
 	document.getElementById("paymentStepTwo").style.display = "block";
-	document.getElementById("paymentMessage").innerHTML = "Send FILLINBTC to this address using the address: <small style='color:#03e9f4;'>"+ address+"</small> to complete the transaction";
-
+	document.getElementById("paymentMessage").innerHTML = "Send $"+usdPrice+"("+ (price).toFixed(5) +"btc) to this address using the address: <small style='color:#03e9f4;'>"+ address+"</small> to complete the transaction";
 }
 </script>
 <br><br><br><br>
