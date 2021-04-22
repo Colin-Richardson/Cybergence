@@ -76,8 +76,9 @@ window.onclick = function(event) {
 //payment info stuff
 main();
 var price;
-var usdPrice;
+console.log(price);
 getPrice();
+console.log(price);
 function main()
 {
 	var xhttp = new XMLHttpRequest();
@@ -104,11 +105,11 @@ function getPrice()
 		if (this.readyState == 4 && this.status == 200) 
 		{
 			let data = this.responseText;
-			usdPrice = data;
 			price = data/<?php require 'includes/btc.inc.php';echo btcprice();?>;
+			console.log(price);
 		}
 	};
-	xhttp.open("POST", "includes/getProductPrice.inc.php ", false); //running this synchronously isn't reccomended, but it's the best solution
+	xhttp.open("POST", "includes/getProductPrice.inc.php ", false);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	xhttp.send("product=<?php echo explode('?', str_replace("/~mahs_mthornton/", "", $_SERVER['REQUEST_URI']))[0] ?>");
 }
@@ -141,7 +142,7 @@ function paymentStepTwo(address)
 {
 	document.getElementById("paymentStepOne").style.display = "none";
 	document.getElementById("paymentStepTwo").style.display = "block";
-	document.getElementById("paymentMessage").innerHTML = "Send $"+usdPrice+"("+ (price).toFixed(5) +"btc) to this address using the address: <small style='color:#03e9f4;'>"+ address+"</small> to complete the transaction";
+	document.getElementById("paymentMessage").innerHTML = "Send "+ price +"btc to this address using the address: <small style='color:#03e9f4;'>"+ address+"</small> to complete the transaction";
 }
 </script>
 <br><br><br><br>
