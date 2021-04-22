@@ -1,3 +1,4 @@
+/* Fixes each page */
 html,
 body {
   width: 100%;
@@ -5,7 +6,7 @@ body {
   overflow-x: hidden;
   background-color: black;
 }
-
+/* Start of index styles */
 .index {
   background-image: url('img/landingpage.gif');
   background-repeat: no-repeat;
@@ -42,6 +43,9 @@ body {
   margin-left: 80%;
 }
 
+/* End of index styles */
+/* Start of nav styles */
+
 .sunav {
   right: 10%;
   position: absolute;
@@ -65,11 +69,15 @@ body {
   background: linear-gradient(to top, #000000 0%, #062dda 200%);
 }
 
+/* End of index styles */
+
+/* Needed as a standard for color and alignment */
 .state {
   color: white;
   text-align: center;
 }
 
+/* Mission quote */
 .misquote {
   color: white;
   padding-top: 25%;
@@ -77,17 +85,18 @@ body {
   text-align: center;
 }
 
-
+/* Ethics bullet points */
 .ethbul {
   color: white;
   margin: 2% 5% 2% 5%;
 }
 
+
 .gradient {
   background: linear-gradient(to top, #000000 0%, #141414 100%);
 }
 
-
+/* Mission section backgrounds */
 .teamback {
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('img/ethicsbackground.jpg');
   background-repeat: no-repeat;
@@ -101,6 +110,7 @@ body {
   height: 100%;
 }
 
+/* Mission sections for the load in on scroll down*/
 .secs {
   height: 100%;
 }
@@ -112,7 +122,7 @@ body {
   height: 100%;
 }
 
-/* these names are dumb and too long, I'll fix them later */
+/* Team card styles */
 .team-container {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +181,7 @@ body {
 .team-card-description>p {
   padding: 4%;
 }
+/* HTML Canvas graph styles */
 .graph {
 	background: white;
 	margin: auto;
@@ -189,10 +200,12 @@ body {
   }
 }
 
+/* Product jumbotron */
 .productjumbo {
   padding: 21%;
 }
 
+/* Product page jumbotron backgrounds */
 .armback {
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('img/jumboarm.jpg');
 }
@@ -214,27 +227,28 @@ body {
 
 }
 
+/* ExoSuit description background */
 .exodesctit {
   color: white;
   text-align: center;
   font-size: 175%;
 }
-
+/* Exosuit picture */
 .exosuit {
   padding-left: 10%;
 }
-
+/* Exosuit picture description */
 .exodesc {
   color: white;
   font-size: 100%;
   text-align: center;
   padding: 0% 3% 0% 3%;
 }
-
+/* Makes nav transparent */
 .navopacity {
   background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0));
 }
-
+/* ExoSuit breakdown */
 .exobreak {
   background: linear-gradient(rgba(0, 0, 102, .3), rgba(0, 0, 102, .3));
 }
@@ -245,24 +259,24 @@ body {
   margin-top: 2%;
   margin-left: 2%;
 }
-
+/* ExoSuit breakdown title */
 .exobreaktit {
   color: white;
   text-align: center;
   font-size: 250%;
 }
-
+/* ExoSuit breakdown description */
 .exobreakdesc {
   color: white;
   font-size: 100%;
 }
-
+/* ExoSuit buy title */
 .exobuytit {
   color: white;
   text-align: center;
   font-size: 230%;
 }
-
+/* Product buy button */
 .buybutton {
 	display: flex;
 	align-items: center;
@@ -296,7 +310,7 @@ body {
     margin: 0.4em auto;
   }
 }
-
+/* Footer styles */
 footer {
   background-color: #010127;
   color: white;
@@ -348,12 +362,12 @@ footer .form-control {
     margin: 0.4em auto;
   }
 }
-
+/* Eye image */
 .indepth-eye {
   height: 100%;
   width: 100%;
 }
-
+/* Eye breakdown */
 .eyebreak {
   padding-right: 2%;
 }
@@ -361,7 +375,7 @@ footer .form-control {
 .eyebreakh2 {
   font-size: 110%;
 }
-
+/* in-depth arm styles*/
 .indepth-arm {
   height: 95%;
   width: 95%;
@@ -451,7 +465,7 @@ footer .form-control {
 .close:focus {
   cursor: pointer;
 }
-
+/* Other modal for login */
 .modal-header {
   padding-right: 37%;
   background-color: #00022a;
@@ -637,7 +651,7 @@ footer .form-control {
   @return ($value / 16px) * 1rem;
 }
 
-
+/* Signup/login styles */
 .signupa,
 [type="submit"] {
   transition: all .25s ease-in;
@@ -750,7 +764,7 @@ footer .form-control {
   text-decoration: underline;
   color: #030345;
 }
-
+/* For making stuff transparent */
 .transparent {
   color: transparent;
 }
@@ -760,7 +774,7 @@ footer .form-control {
   background-color: transparent;
   border: transparent;
 }
-
+/* Shop styles*/
 .shopimg {
   height: 100%;
   width: 100%;
@@ -826,6 +840,12 @@ footer .form-control {
   margin-left: 22%;
 }
 
+.shpnav {
+  position: absolute;
+  right: 8%;
+}
+
+/* Media queries */
 @media screen and (max-width:1235px) {
   .signuph1,
   .signuph2 {
@@ -859,7 +879,11 @@ footer .form-control {
   transform: translateX(0%);
   }
 }
-
+@media screen and (max-width:991px) {
+.augarm {
+  margin-right: 175px;
+  }
+}
 @media screen and (max-width:990px) {
   .misquotegif {
     width: 90%;
@@ -896,6 +920,16 @@ footer .form-control {
   .exobreakdesc {
     color: white;
     font-size: 85%;
+  }
+  .misnav {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+  }
+  .shpnav {
+    position: absolute;
+    right: 8%;
+    top: 30%;
   }
 }
 
@@ -941,6 +975,10 @@ footer .form-control {
   .modal-body {
     text-align: center;
     font-size: 125%;
+  }
+  .sunav {
+    right: 14%;
+    position: absolute;
   }
 }
 
@@ -1116,6 +1154,16 @@ footer .form-control {
     letter-spacing: 4px;
     margin-right: 50%;
   }
+  .misnav {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+  }
+  .shpnav {
+    position: absolute;
+    right: 8%;
+    top: 30%;
+  }
 }
 
 @media screen and (max-width:519px) {
@@ -1240,7 +1288,12 @@ footer .form-control {
     width: 450px;
   }
 }
-
+@media screen and (max-width:414px) {
+.sunav {
+  right: 20%;
+  position: absolute;
+}
+}
 @media screen and (max-width:395px) {
   .misfoot {
     margin-top: 400%;

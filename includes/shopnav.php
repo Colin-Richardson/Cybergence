@@ -1,16 +1,12 @@
 
         <nav class="navbar navbar-expand-lg navopacity">
-            <a class="navbar-brand" href="index.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"
-                aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarcollapse">
+            <a class="navbar-brand" href="shop.php"><img class="logo" src="img/favicon.png" alt="Cybergence"></a>
+            <div>
 
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="augmented_arms.php">Augmented Arms</a>
-                    <a class="nav-item nav-link" href="cyber_contacts.php">Cyber Contacts</a>
-                    <a class="nav-item nav-link" href="exosuit.php">ExoSuit</a>
+                    <a class="nav-item nav-link augarm" href="augmented_arms.php">Augmented Arms</a>
+                    <a class="nav-item nav-link cbrcont" href="cyber_contacts.php">Cyber Contacts</a>
+                    <a class="nav-item nav-link exos" href="exosuit.php">ExoSuit</a>
 		<?php 
 		if (isset($_SESSION['userId']))
 		{

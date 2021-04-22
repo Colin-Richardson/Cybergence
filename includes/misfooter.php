@@ -1,7 +1,7 @@
 <footer class="misfoot">  
     <div class="container">
         <div class="row">
-            <div class="col-5"><br>
+            <div class="col-12"><br>
                 <h5 class="footertit"><i class="fa fa-road"></i> Cybergence</h5>
                 <div class="row">
                     <div class="col-6">
@@ -22,20 +22,6 @@
                     </div>
                 </div>
                 <br>
-            </div>
-            <div class="col-7"><br>
-                <h5 class="text-md-right footertit">Newsletter</h5>
-                <hr>
-                <form action="includes/newsletter.inc.php" method="post">
-		<input type="hidden" name="redirect" value="<?php echo (isset($_GET['rdr'])) ? $_GET['rdr'] : '';?>" />
-                    <fieldset class="form-group">
-                        <input type="email" class="form-control" name="mail" id="exampleInputEmail1" placeholder="Enter email">
-                    </fieldset>
-                    <br>
-                    <fieldset class="form-group text-xs-right">
-                    <button type="submit" name="newsletter-submit" class="button2">Send</button>
-                    </fieldset>
-                </form><br>
             </div>
         </div>
     </div>
