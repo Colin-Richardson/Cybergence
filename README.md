@@ -31,7 +31,7 @@ Our website consists of many things, but the most notable of which include:
 
   - A custom logo made in photoshop.
 
-- Efficient system for the product pages of all the catalogue items.
+- Efficient system for the product pages.
 
 - Mission statement, ethic guidelines, and team cards added to build credibility in the company (ethos).
 
